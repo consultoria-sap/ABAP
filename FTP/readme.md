@@ -1,6 +1,7 @@
 ---
 Todos los derechos reservados a éste debate y su autor:
 http://foros.consultoria-sap.com/t/conexion-ftp-desde-abap-poo/2600/
+Autor: Alvan1 
 ---
 
 >Hola comunidad hoy les quiero presentar un tema que en algún momento les puede solucionar muchos dolores de cabeza cuando se presente el tema.
