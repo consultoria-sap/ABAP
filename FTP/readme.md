@@ -14,3 +14,6 @@ Requisitos:
 * Muchas ganas de aprender 
 >
 >Continuar tutorial SAP ABAP sobre "[Conexión FTP desde ABAP - POO](http://foros.consultoria-sap.com/t/conexion-ftp-desde-abap-poo/2600)"
+
+
+Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
