@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*& http://foros.consultoria-sap.com/t/creacion-de-un-listado-de-clientes/13891/41
+*& http://foros.consultoria-sap.com/t/creacion-de-un-listado-de-clientes/13891/53
 *&
 *&---------------------------------------------------------------------*
 
