@@ -1,6 +1,6 @@
 ---
 layout: base
-title:  "titulo del artículo"
+title:  "GitHub ABAP"
 permalink: /
 canonical: https://sidval.github.io/ABAP/
 published: 2017-03-20
