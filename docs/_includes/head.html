@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+  <head>
+  	<meta charset="utf-8">
+  	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  	<meta name="description" content="{% if page.descripcion %}{{ page.descripcion | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	  <link rel="canonical" href="{{ page.canonical }}">
+	
+    <link rel="apple-touch-icon" sizes="180x180" href="https://m.consultoria-sap.com/apple-touch-icon.png">
+    <link href='https://m.consultoria-sap.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+    <link rel="icon" type="image/png" href="https://m.consultoria-sap.com/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://m.consultoria-sap.com/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+	
+	<script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ page.canonical }}"
+        },
+        "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+        "image": {
+            "@type": "ImageObject",
+            "url": "{{ page.images }}",
+            "height": {{ page.images_h }},
+            "width": {{ page.images_w }}
+            },
+        "datePublished": "{{ page.published }}",
+        "dateModified": "{{ page.modified }}",
+        "description": "{% if page.descripcion %}{{ page.descripcion | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+        "author": {
+        "@type": "Person",
+        "name": "{{ page.autor }}"
+        },
+       "publisher": {
+        "@type": "Organization",
+        "name": "Consultoria-SAP",
+        "logo": {
+              "@type": "ImageObject",
+              "url": "https://m.consultoria-sap.com/img/csap-150-60.jpg",
+              "width": 150,
+              "height": 60
+                }
+            }
+        }
+    	</script>
+	
+    <style>
+        html {
+        color: #222;
+        font-family: Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        background-color: #fff;
+        overflow-y: scroll;
+        direction: ltr;
+        }
+        body {
+        padding:0 5px 0 5px;
+        font-size: larger;
+        }
+        li {
+        padding:0 0 8px;    
+        }
+        footer {
+        padding: 1rem;
+        background-color: #efefef;
+        text-align: center;
+        }
+    </style>
+      
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sap_blog">
+<meta name="twitter:creator" content="@sap_blog">
+<meta property="og:url" content="{{ page.permalink }}">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.descripcion }}">
+<meta property="og:image" content="{{ page.images }}">  
