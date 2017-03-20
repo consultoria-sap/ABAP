@@ -1,20 +1,27 @@
   </head>
   <body>
-  
-	<div class="heading">
-    <h1>{{ page.title }}</h1>
+    <div class="wrapper">
+      <header>  
+	
+    <h1 class="header">{{ page.title }}</h1>
     		
-<p id="summary">{{ page.resumen }}<p>
+<p class="header">{{ page.resumen-muy-breve }}<p>
       <small>por {{ page.autor }} desde Consultoria-SAP.com</small>
     </p>
 		
-  </div>
-	  
-	<p class="heading">
+<ul>
+<li><a class="buttons github" href="https://github.com/SidVal/ABAP">Ver en GitHub</a></li>
+</ul>
+     
+<p class="header">Este proyecto es mantenido por <a class="header name" href="https://github.com/SidVal">SidV</a></p>
+	      
+	<p class="header">
 <!-- enlaces sociales -->
 	</p>
 	
+	    </header>
 <br />
+	    <section>
 <figure>
       <img src="{{page.images}}" width="{{page.images_w}}" height="{{page.images_h}}" alt="{{page.figura_alt}}" />
       <figcaption>{{page.figura_desc}}</figcaption>
