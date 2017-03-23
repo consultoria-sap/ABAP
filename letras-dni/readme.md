@@ -9,3 +9,13 @@ Hola a todos.
 ¿Existe alguna función para encotrar la letra de un número de DNI?
 
 Saludos y gracias
+
+## Solución
+
+Ver [código](https://github.com/SidVal/ABAP/blob/master/letras-dni/letras-dni.abap)
+
+
+***
+
+Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+
