@@ -10,6 +10,7 @@ Si queres ayudar con este repositorio, lee este [Wiki](https://github.com/SidVal
 * [Open dataset (Generar PDF en AS)](https://github.com/SidVal/ABAP/tree/master/OTF-TO-PDF)
 * [Listado de Clientes](https://github.com/SidVal/ABAP/tree/master/LISTADO-CLIENTES)
 * [Descargar BITMAP desde SAP](https://github.com/SidVal/ABAP/tree/master/Download-BITMAP-from-SAP)
+* [Función Letras del DNI](https://github.com/SidVal/ABAP/blob/master/letras-dni/)
 
 
 ***
