@@ -17,7 +17,7 @@ El problema es en el pa_id, que no registra el valor de gv_reg.
 
 ## Solución
 
-Ver código final
+[Ver código final](https://github.com/SidVal/ABAP/blob/master/parameter-desde-una-variable/parameter.abap)
 
 
 ***
