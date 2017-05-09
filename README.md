@@ -15,6 +15,7 @@ Si queres ayudar con este repositorio, lee este [Wiki](https://github.com/SidVal
 * [Table info](https://github.com/SidVal/ABAP/tree/master/TABLE-INFO)
 * [Consulta Reporte ALV que no trae datos](https://github.com/SidVal/ABAP/tree/master/Reporte-ALV)
 * [Programa para controlar transportes de una empresa](https://github.com/SidVal/ABAP/tree/master/control-transporte-empresa)
+* [Reporte planeación periódica](https://github.com/SidVal/ABAP/tree/master/reporte-planeacion-periodica)
 
 
 ***
