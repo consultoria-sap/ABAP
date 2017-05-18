@@ -18,6 +18,7 @@ Si queres ayudar con este repositorio, lee este [Wiki](https://github.com/SidVal
 * [Reporte planeación periódica](https://github.com/SidVal/ABAP/tree/master/codigos/reporte-planeacion-periodica)
 * [AES algorithm implementation by ABAP](https://github.com/SidVal/ABAP/tree/master/codigos/abap-for-aes) -
 ABAP Utilities for AES encryption, decryption under MIT License. 
+* [Borrar Roles de forma masiva](https://github.com/SidVal/ABAP/tree/master/codigos/borrar-roles)
 
 
 ***
