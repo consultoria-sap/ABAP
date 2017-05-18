@@ -5,7 +5,7 @@ Autor: Nicolas https://github.com/Shadowng
 ---
 
 Programa ABAP para eliminar roles de manera masiva.
-[z_del_agr.abap]()
+[z_del_agr.abap](https://github.com/SidVal/ABAP/blob/master/codigos/borrar-roles/z_del_agr.abap)
 
 ***
 
