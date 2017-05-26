@@ -1,95 +1,75 @@
 *&---------------------------------------------------------------------*
-*&  Include           ZFTP001_MIMP
+*&  Include           ZFTP001_TOP
 *&---------------------------------------------------------------------*
-CLASS actions IMPLEMENTATION.
-  METHOD encrypt.
-    data: result TYPE c LENGTH 50.
+REPORT  zftp001.
 
-    CALL 'AB_RFC_X_SCRAMBLE_STRING'
-    ID 'SOURCE'      FIELD contrasena
-    ID 'KEY'         FIELD llave
-    ID 'SCR'         FIELD 'X'
-    ID 'DESTINATION' FIELD password
-    ID 'DSTLEN'      FIELD dstlen.
-
-    CONCATENATE 'Resultado de Encriptar: ' password
-    INTO result SEPARATED BY space.
-
-    PERFORM draw USING result.
-
-  ENDMETHOD.                    "encrypt
-
-  METHOD connect.
-    CALL FUNCTION 'FTP_CONNECT'
-      EXPORTING
-        user            = usuario
-        password        = contrasena
-        host            = ipdestino
-        rfc_destination = destsap
-      IMPORTING
-        handle          = hdl
-      EXCEPTIONS
-        not_connected   = 1
-        OTHERS          = 2.
-
-    encargado = hdl.
-
-    IF sy-subrc = 0.
-      PERFORM draw USING 'Conexion Correcta'.
-    ELSE.
-      PERFORM draw USING 'Conexion Erronea'.
-    ENDIF.
-  ENDMETHOD.                    "connect
-
-  METHOD send_comm.
-    CALL FUNCTION 'FTP_COMMAND_LIST'
-      EXPORTING
-        handle        = encargado
-      TABLES
-        commands      = comandos
-        data          = receive
-      EXCEPTIONS
-        command_error = 1
-        tcpip_error   = 2
-        data_error    = 3.
-
-    IF sy-subrc = 0.
-      PERFORM draw USING 'Comandos Enviados Correctamente'.
-    ELSE.
-      PERFORM draw USING 'Comandos No Enviados'.
-    ENDIF.
-  ENDMETHOD.                    "send_comm
-
-  METHOD close.
-    CALL FUNCTION 'FTP_DISCONNECT'
-      EXPORTING
-        handle = hdl.
-    subrc = sy-subrc.
-
-    IF sy-subrc = 0.
-      PERFORM draw USING 'Sesion Cerrada Correctamente'.
-    ELSE.
-      PERFORM draw USING 'Sesion No Cerrada'.
-    ENDIF.
-  ENDMETHOD.                    "close
-
-
-  METHOD append.
-    CLEAR wa_commands-line.
-    wa_commands-line = line.
-    APPEND wa_commands TO commands.
-  ENDMETHOD.                    "APPEND
-
-ENDCLASS.                    "actions IMPLEMENTATION
-
-
-*&---------------------------------------------------------------------*
-*&      Form  DRAW
-*&---------------------------------------------------------------------*
-*       text
 *----------------------------------------------------------------------*
-*      -->P_MESSAGE  text
+* Declaración de Tipos                                                 *
 *----------------------------------------------------------------------*
-FORM draw  USING    p_message.
-  WRITE:/ p_message.
-ENDFORM.                    " DRAW
+TYPES: BEGIN OF comm,
+  line TYPE c LENGTH 250,       "Esta sera la estructura para que almacenara
+END OF comm.                    "nuestros comandos FTP.
+
+*----------------------------------------------------------------------*
+*  Declaración de Variables Globales                                   *
+*----------------------------------------------------------------------*
+DATA: password(30)   TYPE c,        "Aqui se alojara nuestro password encriptado
+      hdl            TYPE i,        "Se alojara el manejador asignado por el Sist.
+      dstlen         TYPE i,        "Campo de recepcion obligatorio para la encriptacion
+      confirm        LIKE sy-subrc. "Variable de control de errores
+
+*----------------------------------------------------------------------*
+*  Declaración de Constates Globales                                   *
+*----------------------------------------------------------------------*
+CONSTANTS:
+  key TYPE i VALUE 26101957,                "Llave de encriptacion
+  dest LIKE rfcdes-rfcdest VALUE 'SAPFTPA', "Destino SAP por default SAPFTPA
+  ip(15) TYPE c VALUE '-con la ip destino-',      "IP de servidor destino
+  user(15) TYPE c VALUE '-usuario-',           "Usuario de Servidor destino
+  passerv(11) TYPE c VALUE '-contrasenia-'.    "Password de Servidor destino
+
+
+*----------------------------------------------------------------------*
+*  Declaración de Tablas Internas                                      *
+*----------------------------------------------------------------------*
+DATA: commands TYPE STANDARD TABLE OF comm, "Tabla interna que almacenara nuestros comandos FTP
+      mtab_data TYPE STANDARD TABLE OF comm."Almacenara nuestro resultado de la ejecucion de los comandos FTP
+
+
+*----------------------------------------------------------------------*
+*  Declaración de Areas de Trabajo                                     *
+*----------------------------------------------------------------------*
+DATA: wa_commands TYPE comm, "Area de trabajo para el envio de comandos
+      wa_mtab TYPE comm.     "Area de trabajo para la recepcion de informacion
+
+
+*&---------------------------------------------------------------------*
+*&       Class actions
+*&---------------------------------------------------------------------*
+*  Clase local para remplazar los simbolos del nombre
+*----------------------------------------------------------------------*
+CLASS actions DEFINITION.
+  PUBLIC SECTION.
+
+    METHODS:
+*Metodo de Encriptacion
+             encrypt   IMPORTING value(contrasena) LIKE passerv
+                                 value(llave) LIKE key,
+*Metodo de Conexion FTP
+             connect   IMPORTING value(usuario) LIKE user
+                                 value(contrasena) LIKE password
+                                 value(ipdestino) LIKE ip
+                                 value(destsap) LIKE dest
+                       RETURNING value(encargado) LIKE hdl,
+*Metodo de Envio de Comandos
+             send_comm IMPORTING value(encargado) LIKE hdl
+                                 value(index) TYPE i
+                                 value(comandos) LIKE commands
+                       RETURNING value(receive) LIKE mtab_data,
+*Metodo de Cierre de Sesion FTP
+             close     IMPORTING value(encargado) LIKE hdl
+                       RETURNING value(subrc) LIKE sy-subrc,
+*Metodo para Agregar Comandos FTP
+             append    IMPORTING value(line) LIKE wa_commands-line.
+
+ENDCLASS.                    "actions DEFINITION
