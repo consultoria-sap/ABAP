@@ -14,7 +14,8 @@ Si bien sabemos que podemos usar el Legacy o un SHDB, yo estaba buscando una sol
 >
 >Aporte: http://foros.consultoria-sap.com/t/bapi-para-extender-un-material/16268
 >
-Ver código: 
+
+### [Ver código](https://github.com/SidVal/ABAP/blob/master/codigos/bapi-extender-material/bapi_extender.abap)
 
 ***
 
