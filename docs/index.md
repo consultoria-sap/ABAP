@@ -1,5 +1,6 @@
 ---
 layout: base
+title: SAP ABAP free examples
 ---
 
 ### Bienvenidos al repositorio de conocimiento libre de Consultoria-SAP.com
