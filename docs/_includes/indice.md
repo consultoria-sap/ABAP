@@ -17,6 +17,7 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 * [Problema con la función RZL_READ_DIR_LOCAL](https://github.com/SidVal/ABAP/tree/master/codigos/funcion-rzl-read-dir-local)
 * [Validar archivo local o en servidor](https://github.com/SidVal/ABAP/tree/master/codigos/validar-archivo-local-servidor)
 * [BAPI: cómo extender material](https://github.com/SidVal/ABAP/tree/master/codigos/bapi-extender-material)
+* [Status e información de Liberacion en Pedidos de Compra](https://github.com/SidVal/ABAP/tree/master/codigos/informacion-liberacion-pedidos-compra)
 
 ### Ejemplos varios
 * [Ejemplos tomados de internet](https://github.com/SidVal/ABAP/tree/master/codigos/ejemplos)
