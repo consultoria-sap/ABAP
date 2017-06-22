@@ -24,3 +24,10 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 * [Ejemplos tomados de internet](https://github.com/SidVal/ABAP/tree/master/codigos/ejemplos)
 * [KnowlegeRepository/ABAP by Jerry Wang (from SAP)](https://github.com/i042416/KnowlegeRepository/tree/master/ABAP)
 * [ABAP/4 Samples by guidancetech.com](http://www.guidancetech.com/people/holland/sap/abap/)
+* [mauriciolauffer/ABAP](https://github.com/mauriciolauffer/ABAP)
+  * [ALV](https://github.com/mauriciolauffer/ABAP/tree/master/ALV)
+  * [Email](https://github.com/mauriciolauffer/ABAP/tree/master/Email)
+  * [Performance](https://github.com/mauriciolauffer/ABAP/tree/master/Performance)
+  * [Utilities](https://github.com/mauriciolauffer/ABAP/tree/master/Utilities)
+  * [Workflow](https://github.com/mauriciolauffer/ABAP/tree/master/Workflow)
+  
