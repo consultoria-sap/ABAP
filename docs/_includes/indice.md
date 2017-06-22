@@ -1,4 +1,4 @@
-## Índice de temas tratados
+## Índice de temas tratados en este repo ABAP
 
 * [Conexión FTP desde ABAP](https://github.com/SidVal/ABAP/tree/master/codigos/conexion-ftp-desde-abap-poo)
 * [Open dataset (Generar PDF en AS)](https://github.com/SidVal/ABAP/tree/master/codigos/otf-to-pdf)
@@ -20,14 +20,15 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 * [Status e información de Liberacion en Pedidos de Compra](https://github.com/SidVal/ABAP/tree/master/codigos/informacion-liberacion-pedidos-compra)
 * [Actualizacion masiva criticidad Excel](https://github.com/SidVal/ABAP/tree/master/codigos/Actualizacion-masiva-criticidad-Excel)
 
-### Ejemplos varios
+### Git: ABAP - Ejemplos varios
 * [Ejemplos tomados de internet](https://github.com/SidVal/ABAP/tree/master/codigos/ejemplos)
 * [KnowlegeRepository/ABAP by Jerry Wang (from SAP)](https://github.com/i042416/KnowlegeRepository/tree/master/ABAP)
-* [ABAP/4 Samples by guidancetech.com](http://www.guidancetech.com/people/holland/sap/abap/)
 * [mauriciolauffer/ABAP](https://github.com/mauriciolauffer/ABAP)
   * [ALV](https://github.com/mauriciolauffer/ABAP/tree/master/ALV)
   * [Email](https://github.com/mauriciolauffer/ABAP/tree/master/Email)
   * [Performance](https://github.com/mauriciolauffer/ABAP/tree/master/Performance)
   * [Utilities](https://github.com/mauriciolauffer/ABAP/tree/master/Utilities)
   * [Workflow](https://github.com/mauriciolauffer/ABAP/tree/master/Workflow)
-  
+
+#### Sitios web con códigos destacados
+* [ABAP/4 Samples by guidancetech.com](http://www.guidancetech.com/people/holland/sap/abap/)
