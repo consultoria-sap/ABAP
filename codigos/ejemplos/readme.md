@@ -7,9 +7,10 @@ En esta carpeta irán códigos que se encuentran en internet de forma pública.
 
 Se cita URL en el readme.md de cada ejemplo.
 
-## Ejemplos de código ABAP publicados
-* [REUSE_ALV_HIERSEQ_LIST_DISPLAY](https://github.com/SidVal/ABAP/tree/master/codigos/ejemplos/REUSE_ALV_HIERSEQ_LIST_DISPLAY)
-* [KnowlegeRepository/ABAP](https://github.com/i042416/KnowlegeRepository/tree/master/ABAP)
+## Índice de ejemplos
+
+Para no tener que editar una y otra vez varios índices, se indexa en un único archivo todo.
+Lo encontrarás en el [home del sitio](https://sidval.github.io/ABAP/).
 
 ***
 
