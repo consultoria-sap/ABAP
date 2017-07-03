@@ -1,4 +1,4 @@
-comments:
+codigos:
   # (*) REQUIRED
   #
   # Names of the fields the form is allowed to submit. If a field that is
@@ -44,7 +44,7 @@ comments:
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
-  path: "_codigos/"
+  path: "codigos"
 
   # Names of required files. If any of these isn't in the request or is empty,
   # an error will be thrown.
