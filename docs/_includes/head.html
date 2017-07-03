@@ -44,78 +44,86 @@ box-sizing: border-box;
   left: 0;
   right: 0;
   bottom: 0;
-  @media( max-width: 640px ){
-			position: relative;
-      width: 100%;
-	}
-	.modal {
-		z-index: 2;
-		opacity: 0;
-		visibility: hidden;
-    position: fixed;
+}
+@media (max-width: 640px) {
+  .pop {
+    position: relative;
     width: 100%;
-		height: 100%;
-		background: rgba(0, 0, 0, .5);
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		transition: opacity 500ms ease-in-out;
-		&__inner {
-		  transform: translate(-50%, -50%) scale(.75);
-	    top: 50%;
-	    left: 50%;
-			width: 50%;
-	    background: white;
-	    padding: 30px;
-			position: absolute;
-      color: black;
-			@media( max-width: 640px ){
-				width: 100%;
-			}
-		}
-	}
-	label {
-		display: inline-block;
-		cursor: pointer;
-		&.open {
-      color: turquoise;
-	    transition: color 200ms ease-in-out;
-      text-decoration: underline;
-			&:hover {
-				color: paleturquoise;
-			}
-		}
-	}
-	input {
-		display: none;
-		&:checked {
-			+ .modal {
-				opacity: 1;
-				visibility: visible;
-				.modal__inner {
-	        transform: translate(-50%, -50%) scale(1);
-			    transition: all 200ms ease-in-out;
-          p {
-            font-size: 1.25rem;
-            line-height: 125%;
-          }
-				}
-				label {
-					position: absolute;
-					top: 0;
-					right: 0;
-					height: 30px;
-					width: 30px;
-					background: lighten(black, 40%);
-			    transition: all 200ms ease-in-out;
-					&:hover {
-						background: lighten(black, 20%);
-					}
-				}
-			}
-		}
-	}
+  }
+}
+.pop .modal {
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
+}
+.pop .modal__inner {
+  -webkit-transform: translate(-50%, -50%) scale(0.75);
+          transform: translate(-50%, -50%) scale(0.75);
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  background: white;
+  padding: 30px;
+  position: absolute;
+  color: black;
+}
+@media (max-width: 640px) {
+  .pop .modal__inner {
+    width: 100%;
+  }
+}
+.pop label {
+  display: inline-block;
+  cursor: pointer;
+}
+.pop label.open {
+  color: turquoise;
+  -webkit-transition: color 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
+  text-decoration: underline;
+}
+.pop label.open:hover {
+  color: paleturquoise;
+}
+.pop input {
+  display: none;
+}
+.pop input:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+.pop input:checked + .modal .modal__inner {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.pop input:checked + .modal .modal__inner p {
+  font-size: 1.25rem;
+  line-height: 125%;
+}
+.pop input:checked + .modal label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  width: 30px;
+  background: #666666;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.pop input:checked + .modal label:hover {
+  background: #333333;
 }
 </style>
 	  
