@@ -13,5 +13,18 @@ Lee el [**Wiki del Repositorio ABAP**](https://github.com/SidVal/ABAP/wiki) para
 > **!** Buscamos colaboradores ! Antes de darle "fork" a este proyecto, [envía un mensaje aquí](https://github.com/SidVal/ABAP/issues/5) así nos organizamos!  
 
 ***
+Probando algo, ignoren:
+	<div class="pop">
+    <p>I can really go anywhere, in fact, I can be in the middle of a <label for="3" class="open">CLICK ME!</label> sentence. I work because my <b>for</b> matches my buddy's <b>id</b>. My buddy's name is <b>checkbox</b>. And as long as my buddy is right before <b>.modal</b>, everything works and everyone is happy.</p>
+    <input type="checkbox" id="3" />
+    <div class="modal">
+      <div class="modal__inner">
+        <p>Born 'n bred CSS. I have no JS in my genes, I promise!</p>
+        <label for="3"></label>
+      </div>
+    </div>
+	</div>
+
+***
 
 {% include indice.md %}
