@@ -1,0 +1,14 @@
+<h3>Agregar código</h3>
+<p>Todos los campos son obligatorios</p>
+  <form method="POST" action="https://api.staticman.net/v2/entry/SidVal/ABAP/master/">
+  <input name="options[redirect]" type="hidden" value="https://sidval.github.io/ABAP/">
+  
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <label><input name="fields[titulo]" type="text">Título</label><br />
+  <label><input name="fields[autor]" type="email">Autor</label><br />
+  <label><input name="fields[url]" type="email">URL</label><br />
+  <label><textarea name="fields[descripcion]"></textarea>Descripción</label><br />
+  <label><textarea name="fields[codigo]"></textarea>Código</label><br />
+  <br />
+  <button type="submit">¡Agregar!</button>
+</form>
