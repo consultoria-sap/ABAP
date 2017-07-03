@@ -15,11 +15,23 @@ Lee el <b><a href="https://github.com/SidVal/ABAP/wiki">Wiki del Repositorio ABA
 ***
 
   	<div class="pop">
-    <p>I can really go anywhere, in fact, I can be in the middle of a <label for="3" class="open">CLICK ME!</label> sentence. I work because my <b>for</b> matches my buddy's <b>id</b>. My buddy's name is <b>checkbox</b>. And as long as my buddy is right before <b>.modal</b>, everything works and everyone is happy.</p>
+    <label for="3" class="open">+ Código Nuevo</label>
     <input type="checkbox" id="3" />
     <div class="modal">
       <div class="modal__inner">
-        <p>Born 'n bred CSS. I have no JS in my genes, I promise!</p>
+  <form method="POST" action="https://api.staticman.net/v2/entry/eduardoboucas/staticman/gh-pages/comments">
+  <input name="options[redirect]" type="hidden" value="https://sidval.github.io/ABAP/">
+  
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <label><input name="fields[titulo]" type="text">Título</label>
+  <label><input name="fields[autor]" type="email">Autor</label>
+  <label><input name="fields[url]" type="email">URL</label>
+  <label><textarea name="fields[descripcion]"></textarea>Descripción</label>
+  <label><textarea name="fields[codigo]"></textarea>Código</label>
+  
+  <button type="submit">¡Agregar!</button>
+</form>
+	      
         <label for="3"></label>
       </div>
     </div>
