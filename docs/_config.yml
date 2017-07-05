@@ -5,3 +5,7 @@ google_analytics: UA-xxx-xx
 avatar: https://avatars2.githubusercontent.com/u/23317692?v=3&u=3319301a436f2b42d9c4fa89370ddc2e40c0feea
 gems:
   - jekyll-sitemap
+
+repository: "SidVal/ABAP"
+staticman:
+  branch: "master"
