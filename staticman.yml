@@ -17,7 +17,8 @@ codigos:
   # (*) REQUIRED
   #
   # Destination path (filename) for the data files. Accepts placeholders.
-  filename: "{fields.titulo}"
+  #   filename: "{fields.titulo}" funciona bien.
+  filename: "{fields.titulo}/{fields.titulo}"
 
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
