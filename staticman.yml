@@ -12,7 +12,7 @@ codigos:
   moderation: true
   path: "codigos"
   requiredFields: ["titulo", "autor", "url", "codigo", "descripcion"]
-  format: frontmatter
+  format: "frontmatter"
   transforms:
-    codigo: frontmatterContent
+    codigo: "frontmatterContent"
   extension: "abap"
