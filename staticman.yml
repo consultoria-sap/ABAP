@@ -2,7 +2,7 @@ codigos:
   allowedFields: ["titulo", "autor", "url", "descripcion", "codigo"]
   branch: "master"
   commitMessage: "Código Nuevo: {fields.titulo}"
-  pullRequestBody: "Un usuario quiere subir el siguiente archivo; ¿estamos de acuerdo? \n"
+  pullRequestBody: "Un usuario quiere subir el siguiente archivo; ¿estamos de acuerdo? \n\n"
   filename: "{fields.titulo}/{fields.titulo}"
   generatedFields:
      date:
@@ -14,5 +14,5 @@ codigos:
   requiredFields: ["titulo", "autor", "url", "descripcion", "codigo"]
   format: "frontmatter"
   transforms:
-     codigo: "frontmatterContent"
+     codigo: frontmatterContent
   extension: "abap"
