@@ -14,5 +14,5 @@ codigos:
 #  requiredFields: ["titulo", "autor", "url", "descripcion"]
   format: "frontmatter"
   transforms:
-    codigo: frontmatterContent
+    codigo: "frontmatterContent"
   extension: "abap"
