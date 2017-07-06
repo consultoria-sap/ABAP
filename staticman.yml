@@ -11,7 +11,7 @@ codigos:
          format: "iso8601"
   moderation: true
   path: "codigos"
-  requiredFields: ["titulo", "autor", "url", "codigo", "descripcion"]
+  requiredFields: ["titulo", "autor", "url", "descripcion"]
   format: "frontmatter"
   transforms:
     codigo: "frontmatterContent"
