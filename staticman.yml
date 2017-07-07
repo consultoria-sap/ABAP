@@ -16,5 +16,5 @@ codigos:
   format: 'frontmatter'
   transforms:
     codigo: "frontmatterContent"
-  extension: "abap"
+#  extension: "abap"
   name: "Repo SAP ABAP"
