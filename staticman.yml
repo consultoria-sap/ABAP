@@ -1,7 +1,7 @@
 codigos:
   allowedFields: ['titulo', 'autor', 'url', 'descripcion', 'codigo']
   branch: "master"
-  allowedOrigins: ["localhost", "sidval.github.io"]
+  allowedOrigins: ['localhost', 'sidval.github.io']
   commitMessage: "Código Nuevo: {fields.titulo}"
   pullRequestBody: "Un usuario quiere subir el siguiente archivo; **¿estamos de acuerdo?** \n\n"
   filename: "{fields.titulo}"
@@ -16,5 +16,6 @@ codigos:
   format: 'frontmatter'
   transforms:
     codigo: "frontmatterContent"
+    descripcion: "frontmatterContent"
 #  extension: "abap"
   name: "Repo SAP ABAP"
