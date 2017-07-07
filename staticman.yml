@@ -1,21 +1,32 @@
-codigos:
-  allowedFields: ['titulo', 'autor', 'url', 'descripcion', 'codigo']
-  branch: "master"
-  allowedOrigins: ['localhost', 'sidval.github.io']
+--- 
+codigos: 
+  allowedFields: 
+    - titulo
+    - autor
+    - url
+    - descripcion
+    - codigo
+  allowedOrigins: 
+    - localhost
+    - sidval.github.io
+  branch: master
   commitMessage: "Código Nuevo: {fields.titulo}"
-  pullRequestBody: "Un usuario quiere subir el siguiente archivo; **¿estamos de acuerdo?** \n\n"
   filename: "{fields.titulo}"
-  generatedFields:
-     date:
-       type: "date"
-       options:
-         format: "iso8601"
+  format: frontmatter
+  generatedFields: 
+    date: 
+      options: 
+        format: iso8601
+      type: date
   moderation: true
-  path: 'codigos/{fields.titulo}'
-  requiredFields: ['titulo', 'autor', 'url', 'descripcion', 'codigo']
-  format: 'frontmatter'
-  transforms:
-    codigo: "frontmatterContent"
-    descripcion: "frontmatterContent"
-#  extension: "abap"
   name: "Repo SAP ABAP"
+  path: "codigos/{fields.titulo}"
+  pullRequestBody: "Un usuario quiere subir el siguiente archivo; **¿estamos de acuerdo?** \n\n"
+  requiredFields: 
+    - titulo
+    - autor
+    - url
+    - descripcion
+    - codigo
+  transforms: 
+    codigo: frontmatterContent
