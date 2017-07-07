@@ -1,5 +1,5 @@
 codigos:
-  allowedFields: ["titulo", "autor", "url", "descripcion", "codigo"]
+  allowedFields: ['titulo', 'autor', 'url', 'descripcion', 'codigo']
   branch: "master"
   allowedOrigins: ["localhost", "sidval.github.io"]
   commitMessage: "Código Nuevo: {fields.titulo}"
@@ -12,7 +12,7 @@ codigos:
          format: "iso8601"
   moderation: true
   path: 'codigos'
-  requiredFields: ["titulo", "autor", "url", "descripcion", "codigo"]
+  requiredFields: ['titulo', 'autor', 'url', 'descripcion', 'codigo']
   format: 'frontmatter'
   transforms:
     codigo: "frontmatterContent"
