@@ -4,7 +4,7 @@ codigos:
   allowedOrigins: ["localhost", "sidval.github.io"]
   commitMessage: "Código Nuevo: {fields.titulo}"
   pullRequestBody: "Un usuario quiere subir el siguiente archivo; **¿estamos de acuerdo?** \n\n"
-  filename: "{fields.titulo}/{fields.titulo}"
+  filename: "{fields.titulo}"
   generatedFields:
      date:
        type: "date"
