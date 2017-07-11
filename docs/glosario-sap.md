@@ -2,19 +2,17 @@
 layout: base
 title: Glosario SAP
 permalink: /glosario-sap/
-canonical: https://sidval.github.io/ABAP/glosario-sap.html
+canonical: https://sidval.github.io/ABAP/glosario-sap/
 images: https://m.consultoria-sap.com/img/p/sap-696522.jpg
 images_w: 696
 images_h: 522
 published: 2017-07-10
 modified: 2017-07-10
 autor: "SidV"
-resumen: "Índice con todos los conceptos sobre SAP tratados en consultoria-SAP.com. <br />Encontrarás las preguntas frecuentes, los conceptos más usados, más consultados, y aquellos que son importantes dominar para usar el programa SAP.<br /><br />Si algún concepto no está en la lista, no dudes en preguntar sobre el mismo, y te responderemos a la brevedad.<br /><br />Recuerda compartir con tus amigos este artículo!"
 descripcion: "Aprende ahora los conceptos más usados en SAP. Encuentra manuales, tutoriales, descargas, y todo lo necesario para dominar el programa SAP en tu idioma."
 figura_desc: "Glosario SAP español"
 figura_alt: "Glosario SAP - consultoria-sap.com"
 figura_fall: "Hubo un problema con la imagen, disculpe."
----
 ---
 
 Si bien este tema no es ABAP al 100%, es un índice de temas tratados en nuestro glosario de SAP en Consultoria-SAP.
