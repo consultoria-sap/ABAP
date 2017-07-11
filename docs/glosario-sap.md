@@ -1,6 +1,20 @@
 ---
 layout: base
 title: Glosario SAP
+permalink: /glosario-sap/
+canonical: https://sidval.github.io/ABAP/glosario-sap.html
+images: https://m.consultoria-sap.com/img/p/sap-696522.jpg
+images_w: 696
+images_h: 522
+published: 2017-07-10
+modified: 2017-07-10
+autor: "SidV"
+resumen: "Índice con todos los conceptos sobre SAP tratados en consultoria-SAP.com. <br />Encontrarás las preguntas frecuentes, los conceptos más usados, más consultados, y aquellos que son importantes dominar para usar el programa SAP.<br /><br />Si algún concepto no está en la lista, no dudes en preguntar sobre el mismo, y te responderemos a la brevedad.<br /><br />Recuerda compartir con tus amigos este artículo!"
+descripcion: "Aprende ahora los conceptos más usados en SAP. Encuentra manuales, tutoriales, descargas, y todo lo necesario para dominar el programa SAP en tu idioma."
+figura_desc: "Glosario SAP español"
+figura_alt: "Glosario SAP - consultoria-sap.com"
+figura_fall: "Hubo un problema con la imagen, disculpe."
+---
 ---
 
 Si bien este tema no es ABAP al 100%, es un índice de temas tratados en nuestro glosario de SAP en Consultoria-SAP.
@@ -59,13 +73,11 @@ Disfruten !
 * [¿Qué es SAP AIF?](http://www.consultoria-sap.com/2017/07/que-es-sap-aif.html)
 * [¿Qué es SAP ME?](http://www.consultoria-sap.com/2017/07/que-es-sap-me.html)
 
-* [Preguntas Frecuentes: Qué es...](http://www.consultoria-sap.com/2017/05/preguntas-frecuentes-que-es.html)
-
 ***
 
 ## Aprende ahora
 
-Si necesitas más ayuda o hay un concepto que no conoces, aprende ahora y gratis lo que sea que necesites saber sobre SAP.
+Si necesitas más ayuda o hay un concepto que no conoces, aprende ahora y gratis lo que sea que necesites saber sobre SAP, simplemente **[ingresa aquí tu comentario](http://www.consultoria-sap.com/p/diccionario-erp-sap.html) sobre lo que no sabes**, así lo publicamos en el glosario! 
 
 ### Comunidad de Ayuda SAP
 El **[foro de Ayuda SAP](http://foros.consultoria-sap.com)** es actualmente la comunidad más activa, libre de spam, y cuenta con miles de usuarios y consultores SAP que hablan tu idioma para asesorarte, aconsejarte o bien, orientarte sobre cómo llegar a solucionar tus problemas.
