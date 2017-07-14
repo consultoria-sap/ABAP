@@ -33,3 +33,9 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 
 #### Sitios web con códigos destacados
 * [ABAP/4 Samples by guidancetech.com](http://www.guidancetech.com/people/holland/sap/abap/)
+
+### Otros sitios interesantes
+* [SAP Vora - SAP HANA Integration](https://github.com/SAP/vora-vine/blob/master/documentation/vora_hana_integration/README.md#sap-vora---sap-hana-integration)
+* [SAP Vora - Machine Learning](https://github.com/SAP/vora-vine/blob/master/documentation/machine_learning/README.md#machine-learning)
+* [Vora INteractive Education(VINE)](https://github.com/SAP/vora-vine)
+* [SAP openui5](https://github.com/SAP/openui5)
