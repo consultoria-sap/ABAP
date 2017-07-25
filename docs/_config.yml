@@ -14,5 +14,6 @@ staticman:
 collections:
   codigos:
     output: false
-    directory: "codigos"
+    relative_directory: ../codigos
     label: "codigos"
+    permalink: /:collection/:path
