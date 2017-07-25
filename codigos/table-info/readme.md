@@ -1,6 +1,6 @@
 ---
-Todos los derechos reservados a ésta página:
-http://sgstocks.tripod.com/abap002.htm
+Todos los derechos reservados a ésta página
+Fuente: http://sgstocks.tripod.com/abap002.htm
 Aún no se abre debate sobre esto en Ayuda SAP
 ---
 
