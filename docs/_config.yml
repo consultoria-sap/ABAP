@@ -9,3 +9,8 @@ gems:
 repository: "SidVal/ABAP"
 staticman:
   branch: "master"
+
+# Agrego collections
+collections:
+  codigos:
+    output: false
