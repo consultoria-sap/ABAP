@@ -20,3 +20,16 @@ slug: raw
   <br />
   <button type="submit">¡Agregar!</button>
 </form>
+
+<br />
+<hr />
+<br />
+
+<h2>Carpetas disponibles</h2>
+<ul>
+    {% for codigos in site.codigos %}
+      {% if codigos.fuente <> "" %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+</ul>
