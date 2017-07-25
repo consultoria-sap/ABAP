@@ -12,7 +12,7 @@ codigos:
   branch: master
   commitMessage: "Código Nuevo: {fields.titulo}"
   filename: "{fields.titulo}"
-  format: frontmatter
+  format: "frontmatter"
   generatedFields: 
     date: 
       options: 
@@ -28,5 +28,6 @@ codigos:
     - url
     - descripcion
     - codigo
-  transforms: 
+  transforms:
     codigo: frontmatterContent
+  extension: "abap"
