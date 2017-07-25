@@ -1,6 +1,6 @@
 ---
 Todos los derechos reservados a éste debate y su autor:
-http://foros.consultoria-sap.com/t/reporte-alv-no-me-trae-datos-quisiera/15152
+Fuente: http://foros.consultoria-sap.com/t/reporte-alv-no-me-trae-datos-quisiera/15152
 Autor: @luisa_aldana2
 ---
 
