@@ -10,10 +10,7 @@ repository: "SidVal/ABAP"
 staticman:
   branch: "master"
 
-# Agrego collections
-collections:
-  codigos:
-    output: false
-    relative_directory: ../codigos
-    label: "codigos"
-    permalink: /:collection/:path
+# Agrego carpetas
+defaults:
+  - scope:
+      path: "codigos"
