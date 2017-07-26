@@ -28,9 +28,9 @@ slug: raw
 <h2>Carpetas disponibles</h2>
 <ul>
 {% for codigo in site.static_files %}
-  {% if codigo.path contains 'codigos' %}
+  {% if codigo.extname contains 'md' %}
     <li>
-      {{ image.path }}
+      {{ codigo.path }}
     </li>
   {% endif %}
 {% endfor %}
