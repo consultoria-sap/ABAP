@@ -1,6 +1,7 @@
 ---
 Todos los derechos reservados a éste debate y sus autores
 Autor/es: iespino00
+carpeta: true
 ---
 
 Les comparto un código ABAP, para actualizar de manera masiva la criticidad de un material cargando un archivo de excel,
