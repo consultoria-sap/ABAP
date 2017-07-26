@@ -29,9 +29,12 @@ slug: raw
 <ul>
 {% for codigo in site.static_files %}
   {% if codigo.extname contains 'md' %}
-    <li>
+    {% unless codigo.path contains '-th.' %}
+      <li>{{ codigo.basename | append: '-th' | append: codigo.extname }}</li>      
+    {% endunless %}
+    <!--//<li>
       {{ codigo.path }}
-    </li>
+    </li>//-->
   {% endif %}
 {% endfor %}
 </ul>
