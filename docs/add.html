@@ -27,9 +27,11 @@ slug: raw
 
 <h2>Carpetas disponibles</h2>
 <ul>
-    {% for page in site.collections.codigos %}
-      <!--{% if codigos.fuente != "" %}-->
-        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-      <!--{% endif %}-->
-    {% endfor %}
+{% for codigo in site.static_files %}
+  {% if codigo.path contains 'codigos' %}
+    <li>
+      {{ image.path }}
+    </li>
+  {% endif %}
+{% endfor %}
 </ul>
