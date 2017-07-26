@@ -1,4 +1,5 @@
 ---
+Nota: Todos los derechos reservados a sus autores
 Autor/es: iespino00
 carpeta: true
 ---
