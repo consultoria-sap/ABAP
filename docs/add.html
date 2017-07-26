@@ -27,14 +27,9 @@ slug: raw
 
 <h2>Carpetas disponibles</h2>
 <ul>
-{% for codigo in site.static_files %}
-  {% if codigo.extname contains 'md' %}
-    {% unless codigo.path contains '-th.' %}
-      <li>{{ codigo.basename | append: '-th' | append: codigo.extname }}</li>      
-    {% endunless %}
-    <!--//<li>
-      {{ codigo.path }}
-    </li>//-->
-  {% endif %}
-{% endfor %}
+  {% for page in site.pages %}
+    {% if page.carpeta == true %}
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
