@@ -1,6 +1,6 @@
 ---
 Nota: Todos los derechos reservados a éste debate y sus autores
-Autor/es: @nombre-de-usuario  (puede haber más de un autor en código).
+Autor/es: VictorPeru
 carpeta: true
 ---
 
