@@ -6,7 +6,7 @@ avatar: https://avatars2.githubusercontent.com/u/23317692?v=3&u=3319301a436f2b42
 gems:
   - jekyll-sitemap
 
-repository: "SidVal/ABAP"
+repository: "consultoria-sap/ABAP"
 staticman:
   branch: "master"
 
