@@ -3,6 +3,8 @@ title: Repositorio SAP ABAP
 description: Repositorio libre con códigos para aprender programación SAP ahora.
 google_analytics: UA-102273252-1
 avatar: https://avatars2.githubusercontent.com/u/23317692?v=3&u=3319301a436f2b42d9c4fa89370ddc2e40c0feea
+baseurl: /ABAP
+url: https://consultoria-sap.github.io/ABAP/
 gems:
   - jekyll-sitemap
 
