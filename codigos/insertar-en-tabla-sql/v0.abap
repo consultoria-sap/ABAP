@@ -1,3 +1,7 @@
+* Fuente: http://foros.consultoria-sap.com/t/insert-en-tabla-sql-sin-usar-wa-poo/22117 *
+* Autor: Vlp89 *
+
+
 METHOD clear_sql_cobemp.
     DATA: wa_cobemph LIKE ti_cobemph,
           v_fecha(23) TYPE c.
