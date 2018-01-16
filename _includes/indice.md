@@ -19,9 +19,13 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 * [BAPI: cómo extender material](https://github.com/SidVal/ABAP/tree/master/codigos/bapi-extender-material)
 * [Status e información de Liberacion en Pedidos de Compra](https://github.com/SidVal/ABAP/tree/master/codigos/informacion-liberacion-pedidos-compra)
 * [Actualizacion masiva criticidad Excel](https://github.com/SidVal/ABAP/tree/master/codigos/Actualizacion-masiva-criticidad-Excel)
+* [Registros Duplicados en el Loop](https://github.com/SidVal/ABAP/tree/master/codigos/registros-duplicados-en-el-loop)
+* [Enviar datos de ALV al servidor (tcode: AL11)](https://github.com/SidVal/ABAP/tree/master/codigos/enviar-datos-alv-al-servidor)
+* [Cómo cambiar el color del editor ABAP](https://github.com/SidVal/ABAP/tree/master/codigos/cambiar-color-de-editor-abap)
 
 ### Git: ABAP - Ejemplos varios
 * [Ejemplos tomados de internet](https://github.com/SidVal/ABAP/tree/master/codigos/ejemplos)
+* [Open source checks](https://github.com/larshp/abapOpenChecks) for SAP Code Inspector / ABAP Test Cockpit
 * [KnowlegeRepository/ABAP by Jerry Wang (from SAP)](https://github.com/i042416/KnowlegeRepository/tree/master/ABAP)
 * [mauriciolauffer/ABAP](https://github.com/mauriciolauffer/ABAP)
   * [ALV](https://github.com/mauriciolauffer/ABAP/tree/master/ALV)
@@ -29,6 +33,13 @@ ABAP Utilities for AES encryption, decryption under MIT License.
   * [Performance](https://github.com/mauriciolauffer/ABAP/tree/master/Performance)
   * [Utilities](https://github.com/mauriciolauffer/ABAP/tree/master/Utilities)
   * [Workflow](https://github.com/mauriciolauffer/ABAP/tree/master/Workflow)
+* [SAP All in One connector for C#](https://github.com/cuesto/SAPDotNetConnector) which access to Business Application Programming Interface (BAPIs)  
 
 #### Sitios web con códigos destacados
 * [ABAP/4 Samples by guidancetech.com](http://www.guidancetech.com/people/holland/sap/abap/)
+
+### Otros sitios interesantes
+* [SAP Vora - SAP HANA Integration](https://github.com/SAP/vora-vine/blob/master/documentation/vora_hana_integration/README.md#sap-vora---sap-hana-integration)
+* [SAP Vora - Machine Learning](https://github.com/SAP/vora-vine/blob/master/documentation/machine_learning/README.md#machine-learning)
+* [Vora INteractive Education(VINE)](https://github.com/SAP/vora-vine)
+* [SAP openui5](https://github.com/SAP/openui5)
