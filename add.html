@@ -1,0 +1,20 @@
+---
+layout: base
+title: Agregar código
+slug: raw
+---
+
+<h3>Agregar código</h3>
+<p>Todos los campos son obligatorios</p>
+  <form method="POST" action="https://api.staticman.net/v2/entry/SidVal/ABAP/master/codigos">
+  <input name="options[redirect]" type="hidden" value="https://sidval.github.io/ABAP/add.html">
+  
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <label><input name="fields[titulo]" type="text">Título</label><br />
+  <label><input name="fields[autor]" type="text">Autor</label><br />
+  <label><input name="fields[url]" type="URL" required aria-required="true" pattern="^(https?://)?([a-zA-Z0-9]([a-zA-ZäöüÄÖÜ0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$">URL</label><br />
+  <label><textarea name="fields[descripcion]"></textarea>Descripción</label><br />
+  <label><textarea name="fields[codigo]"></textarea>Código</label><br />
+  <br />
+  <button type="submit">¡Agregar!</button>
+</form>
