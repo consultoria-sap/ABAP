@@ -8,14 +8,14 @@ url: https://consultoria-sap.github.io/ABAP/
 gems:
   - jekyll-sitemap
 
-repository: "consultoria-sap/ABAP"
-staticman:
-  branch: "master"
+#repository: "consultoria-sap/ABAP"
+#staticman:
+#  branch: "master"
 
 # Agrego carpetas
-defaults:
-  - scope:
-      path: "codigos"
+#defaults:
+#  - scope:
+#      path: "codigos"
       
 # lista
-carpeta-list: [code]
+#carpeta-list: [code]
