@@ -4,12 +4,38 @@ title: SAP MM
 category: sap-mm
 ---
 
-## Lista de publicaciones destacadas sobre **SAP MM**
+<h1>ERP SAP MM</h1>
 
+<p>SAP MM se encarga de procesos de adquisiciones, datos maestros de materiales, verificación de facturas y todos los procesos logísticos donde se involucran materiales. Es el módulo de la gestión logística de materiales por excelencia. Al ser parte básica del SAP ECC está completamente integrado con otros módulos clave como SAP FI, SAP CO, y SAP SD.
+</p>
+<p>
+SAP MM cubre todas las tareas relacionadas con la cadena de aprovisionamiento (Supply Chain), incluyendo planificación en base a consumos, planificación logística, evaluación de proveedores y verificación de facturas etc. Incluye además gestión de inventario y almacenes para organizar el stock hasta que el uso de éste haga que el ciclo de aprovisionamiento empiece de nuevo. También, este módulo soporta envíos Just-in-Time y Kanban electrónico.
+</p>
+
+
+<h2>Componentes de MM</h2>
+
+<ul><li><b>Planificación en base a Consumos:</b> se encarga de la reposición de stock y utiliza para ello la funcionalidad de MRP (Planificación de Requerimientos de Materiales), determinando procedimientos de cálculo de lotes, y realizando predicciones en base a algoritmos técnicos.
+ </li>
+
+<li><b>Compras:</b> el área de compras de MM proporciona la habilidad de determinar posibles fuentes de aprovisionamiento de servicios y materiales, la compra en sí de estos materiales o servicios, el posterior seguimiento de los pedidos desde que salen de los proveedores, requisas, peticiones de cuotas, precios y condiciones, órdenes de compra y confirmación de los proveedores entre otras muchas funcionalidades.
+</li> 
+
+<li><b>Gestión de Inventario:</b> los componentes de gestión de inventario contiene los registros maestros de servicios, y controla y rastrea todos los movimientos de bienes, recibos, incidencias recibos de bienes devueltos, transferencias de stock, reservas, inventario físico, determinación de stock y gestión de lotes. Además, este sub-módulo contiene la contabilidad de costes actualizada de los diversos materiales, soporta diversas monedas y precios actualizados de los materiales, y es capaz de calcular el coste de producción real.
+Verificación de Facturas: da soporte a la verificación y evaluación de material como Last In First Out (LIFO) y First In First Out (FIFO), análisis de cambio de precios, cambios de facturas a créditos, impuestos, descuentos en efectivo, comprobación de recibos, definir el impacto contable de recibos, cancelar recibos, costes de envío, y determinar variaciones de facturación.
+ </li>
+
+<li><b>Gestión de Servicios Externos:</b> este componente da soporte completo al proceso de aprovisionamiento de servicios externos desde gestión de proveedores, invitaciones a concursos, órdenes de pedidos, aceptación de servicios. Así mismo, es usado para definir especificaciones de servicios, registrar los servicios realizados, confirmar dichos servicios y luego validar la factura del servicio. Los sistemas de información dentro de MM comprenden evaluaciones de proveedores, sistema de compras e información de inventario.</li>
+</ul>
+<br />
+<hr />
+<br /><br />
+<h2>Publicaciones destacadas sobre SAP MM</h2>
+<br />
 <ul>
 {% for post in site.categories[page.category] %}
    <li>
-      <a href="{{ post.url | absolute_url }}">
+      <a href="{{ post.url }}" title="{{ post.title }}">
       {{ post.title }}
     </a>
   </li>
