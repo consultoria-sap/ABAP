@@ -35,7 +35,7 @@ Verificación de Facturas: da soporte a la verificación y evaluación de materi
 <ul>
 {% for post in site.categories[page.category] %}
    <li>
-      <a href="{{ post.url }}" title="{{ post.title }}">
+      <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
       {{ post.title }}
     </a>
   </li>
