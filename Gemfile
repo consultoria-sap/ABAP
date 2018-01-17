@@ -1,3 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gemspec
+gem 'jekyll', '~> 3.5'
+gem 'jemoji', '~> 0.5'
+gem 'jekyll-sitemap'
+gem 'jekyll-redirect-from'
