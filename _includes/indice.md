@@ -1,5 +1,3 @@
-## Índice de temas tratados en este repo ABAP
-
 * [Conexión FTP desde ABAP](https://github.com/SidVal/ABAP/tree/master/codigos/conexion-ftp-desde-abap-poo)
 * [Open dataset (Generar PDF en AS)](https://github.com/SidVal/ABAP/tree/master/codigos/otf-to-pdf)
 * [Listado de Clientes](https://github.com/SidVal/ABAP/tree/master/codigos/listado-clientes)
@@ -22,6 +20,7 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 * [Registros Duplicados en el Loop](https://github.com/SidVal/ABAP/tree/master/codigos/registros-duplicados-en-el-loop)
 * [Enviar datos de ALV al servidor (tcode: AL11)](https://github.com/SidVal/ABAP/tree/master/codigos/enviar-datos-alv-al-servidor)
 * [Cómo cambiar el color del editor ABAP](https://github.com/SidVal/ABAP/tree/master/codigos/cambiar-color-de-editor-abap)
+* [Cómo insertar en tabla con ABAP POO](https://github.com/consultoria-sap/ABAP/blob/master/codigos/insertar-en-tabla-sql/v0.abap)
 
 ### Git: ABAP - Ejemplos varios
 * [Ejemplos tomados de internet](https://github.com/SidVal/ABAP/tree/master/codigos/ejemplos)
