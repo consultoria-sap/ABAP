@@ -1,4 +1,4 @@
-# ABAP [![Build Status](https://travis-ci.org/consultoria-sap/ABAP.svg?branch=master)](https://travis-ci.org/consultoria-sap/ABAP)
+# ABAP
 Cosas ABAP para Consultoria-SAP.com
 
 ## Colaboración 
