@@ -1,11 +1,12 @@
-# ABAP
+# ABAP [![Build Status](https://travis-ci.org/consultoria-sap/ABAP.svg?branch=master)](https://travis-ci.org/consultoria-sap/ABAP)
 Cosas ABAP para Consultoria-SAP.com
 
 ## Colaboración 
-Si queres ayudar con este repositorio, lee este [Wiki](https://github.com/SidVal/ABAP/wiki) :+1:
+Si queres ayudar con este repositorio, avisame a través del [foro de Ayuda SAP](http://foros.consultoria-sap.com).
 
-## [Índice](https://github.com/SidVal/ABAP/blob/master/docs/_includes/indice.md)
-El índice se edita y actualiza independientemente., y aparece en la [web del repositorio](https://consultoria-sap.github.io/ABAP/) 
+## [https://consultoria-sap.github.io/ABAP/](https://consultoria-sap.github.io/ABAP/)
+Por el momento este es el sitio web del repositorio.
+Se ha proyectado fusionarlo con el dominio principal de **Consultoria-SAP.com** muy pronto.
 
 ***
 Copyright © 2008-2018 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
