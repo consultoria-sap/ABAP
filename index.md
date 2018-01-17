@@ -15,4 +15,20 @@ Lee el **[Wiki del Repositorio ABAP](https://github.com/SidVal/ABAP/wiki)** para
 
 ***
 
+## Publicaciones destacadas
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
+***
+
+## Índice de Códigos
+
 {% include indice.md %}
+
