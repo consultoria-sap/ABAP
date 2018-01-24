@@ -5,7 +5,12 @@
         <a href="{{ site.baseurl }}" title="SAP ABAP"><img src="{{ site.avatar }}" alt="SAP ABAP" /></a>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-	<p><a href="{{ site.github.repository_url }}" title="{{ github_name }}"><img src="https://img.shields.io/github/stars/consultoria-sap/ABAP.svg?style=social&label=Estrellas" alt="Github Stars" title="Votar proyecto" /></a></p>
+	<div style="align:center;">
+		<a href="{{ site.github.repository_url }}" title="{{ github_name }}">
+			<img src="https://img.shields.io/github/stars/consultoria-sap/ABAP.svg?style=social&label=Estrellas" alt="Github Stars" title="Votar proyecto {{ github_name }}" />
+		</a>
+	</div>
+	<br />
 <!--//
         {% if site.github.is_project_page %}
           <p class="view"><a href="{{ site.github.repository_url }}">Ver proyecto en GitHub <small>{{ github_name }}</small></a></p>
