@@ -2,14 +2,14 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.baseurl }}" title="SAP ABAP"><img src="{{ site.avatar }}" alt="SAP ABAP" /></a>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
 	<div style="text-align:center">
 		<a href="{{ site.github.repository_url }}" title="{{ github_name }}">
-			<img src="https://img.shields.io/github/stars/consultoria-sap/ABAP.svg?style=social&label=Estrellas" alt="Github Stars" title="Votar proyecto {{ github_name }}" />
-		</a>
+			<img src="https://img.shields.io/github/stars/consultoria-sap/ABAP.svg?style=social&label=Estrellas" alt="Github Stars" title="Votar proyecto ABAP" />
+		</a><br />
+        <a href="{{ site.baseurl }}" title="SAP ABAP"><img src="{{ site.avatar }}" alt="SAP ABAP" /></a>
 	</div>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
 	<br />
 <!--//
         {% if site.github.is_project_page %}
