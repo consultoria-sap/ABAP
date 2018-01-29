@@ -13,10 +13,9 @@ baseurl: /ABAP
 url: https://consultoria-sap.github.io/ABAP/
 timezone: America/Argentina/Buenos_Aires
 excerpt_separator: <!--more-->
-plugins:
-  - jemoji
 gems:
   - jekyll-sitemap
+  - jemoji
 
 #repository: "consultoria-sap/ABAP"
 #staticman:
