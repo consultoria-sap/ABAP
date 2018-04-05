@@ -22,6 +22,7 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 * [Cómo cambiar el color del editor ABAP](https://github.com/SidVal/ABAP/tree/master/codigos/cambiar-color-de-editor-abap)
 * [Cómo insertar en tabla con ABAP POO](https://github.com/consultoria-sap/ABAP/blob/master/codigos/insertar-en-tabla-sql/v0.abap)
 * [Ejemplo simple: Reporte ALV Grip](https://github.com/consultoria-sap/ABAP/blob/master/codigos/ejemplo-alv-report-simple/v0.abap)
+* [Cómo descargar una imagen de la SE78 a tu PC](https://github.com/consultoria-sap/ABAP/blob/master/codigos/recuperar-imagen-se78/ZRECUPERAR_IMAGEN_SE78.abap)
 
 ### Git: ABAP - Ejemplos varios
 * [Ejemplos tomados de internet](https://github.com/SidVal/ABAP/tree/master/codigos/ejemplos)
