@@ -8,4 +8,4 @@ El formato que yo trabajé en ECC 6 se creó con `SMARTFORMS`. Lo que hice fue c
 
 Hay un programa Z (`ZRECUPERAR_IMAGEN_SE78`) que puedes descarga de aquí (`http://www.abap.es/foro/index.php?topic=60.02`) y que te permite descargar las imágenes guardadas para saber su contenido, ahora si con el nombre de la imagen (firma que quieres eliminar) es suficiente, entonces debes crear una imagen en blanco y sustuirla por la imagen de la firma.
 
-Ver codigo ZRECUPERAR_IMAGEN_SE78.abap
+Ver codigo [ZRECUPERAR_IMAGEN_SE78.abap](https://github.com/consultoria-sap/ABAP/blob/master/codigos/recuperar-imagen-se78/ZRECUPERAR_IMAGEN_SE78.abap)
