@@ -13,7 +13,7 @@ Buen día a toda la comunidad, para ampliar el artículo sobre "POPUP en SAP" de
 
 ## Paso por paso
 
-1. Copiamos el siguiente texto:
+* Copiamos el siguiente texto:
 
 {% highlight txt %}
 [FUNCTION] 
@@ -22,8 +22,8 @@ Title=Debugger
 Type=SystemCommand 
 {% endhighlight %}
 
-2. Lo guardamos como TXT
-3. Lo dejamos en un lugar accesible (como en el escritorio) para poder arrastrarlo y soltarlo arriba del popup de SAP.
+* Lo guardamos como TXT
+* Lo dejamos en un lugar accesible (como en el escritorio) para poder arrastrarlo y soltarlo arriba del popup de SAP.
 
 ### ¿Necesitas ayuda?
 
