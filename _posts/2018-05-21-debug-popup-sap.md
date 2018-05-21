@@ -24,11 +24,3 @@ Type=SystemCommand
 
 * Lo guardamos como TXT
 * Lo dejamos en un lugar accesible (como en el escritorio) para poder arrastrarlo y soltarlo arriba del popup de SAP.
-
-### ¿Necesitas ayuda?
-
-Estamos respondiendo a todas las consultas en el [Foro de Ayuda SAP](https://foros.consultoria-sap.com).
-
-***
-
-_Realizado con :heart: en [Consultoria-SAP.com](https://www.consultoria-sap.com)_
