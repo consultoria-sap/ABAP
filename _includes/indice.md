@@ -26,6 +26,12 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 * [Cómo enviar mail a un correo externo](https://github.com/consultoria-sap/ABAP/blob/master/codigos/enviar-email-externo/readme.md)
 * [Cómo obtener texto desde registro info proveedor](https://github.com/consultoria-sap/ABAP/tree/master/codigos/texto-reg-info)
 
+### Juegos ABAP
+
+* [Debate sobre los juegos ABAP](https://foros.consultoria-sap.com/t/creacion-de-juegos-en-abap/30279)
+* [Buscaminas ABAP](https://github.com/consultoria-sap/ABAP/tree/master/codigos/buscaminas#readme)
+* [TA TE TI ABAP](https://github.com/consultoria-sap/ABAP/tree/master/codigos/tic-tac-toe#readme)
+
 ### Git: ABAP - Ejemplos varios
 * [Ejemplos tomados de internet](https://github.com/SidVal/ABAP/tree/master/codigos/ejemplos)
 * [Open source checks](https://github.com/larshp/abapOpenChecks) for SAP Code Inspector / ABAP Test Cockpit
