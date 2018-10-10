@@ -23,14 +23,14 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 * [Cómo insertar en tabla con ABAP POO](https://github.com/consultoria-sap/ABAP/blob/master/codigos/insertar-en-tabla-sql/v0.abap)
 * [Ejemplo simple: Reporte ALV Grip](https://github.com/consultoria-sap/ABAP/blob/master/codigos/ejemplo-alv-report-simple/v0.abap)
 * [Cómo descargar una imagen de la SE78 a tu PC](https://github.com/consultoria-sap/ABAP/blob/master/codigos/recuperar-imagen-se78/ZRECUPERAR_IMAGEN_SE78.abap)
-* [Cómo enviar mail a un correo externo](https://github.com/consultoria-sap/ABAP/blob/master/codigos/enviar-email-externo/readme.md)
+* [Cómo enviar mail a un correo externo](https://github.com/consultoria-sap/ABAP/blob/master/codigos/enviar-email-externo#readme)
 * [Cómo obtener texto desde registro info proveedor](https://github.com/consultoria-sap/ABAP/tree/master/codigos/texto-reg-info)
 
 ### Juegos ABAP
 
 * [Debate sobre los juegos ABAP](https://foros.consultoria-sap.com/t/creacion-de-juegos-en-abap/30279)
-* [Buscaminas ABAP](https://github.com/consultoria-sap/ABAP/tree/master/codigos/buscaminas#readme)
-* [TA TE TI ABAP](https://github.com/consultoria-sap/ABAP/tree/master/codigos/tic-tac-toe#readme)
+* [Buscaminas](https://github.com/consultoria-sap/ABAP/tree/master/codigos/buscaminas#readme)
+* [TA TE TI](https://github.com/consultoria-sap/ABAP/tree/master/codigos/tic-tac-toe#readme)
 
 ### Git: ABAP - Ejemplos varios
 * [Ejemplos tomados de internet](https://github.com/SidVal/ABAP/tree/master/codigos/ejemplos)
