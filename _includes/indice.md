@@ -25,6 +25,7 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 * [Cómo descargar una imagen de la SE78 a tu PC](https://github.com/consultoria-sap/ABAP/blob/master/codigos/recuperar-imagen-se78/ZRECUPERAR_IMAGEN_SE78.abap)
 * [Cómo enviar mail a un correo externo](https://github.com/consultoria-sap/ABAP/blob/master/codigos/enviar-email-externo#readme)
 * [Cómo obtener texto desde registro info proveedor](https://github.com/consultoria-sap/ABAP/tree/master/codigos/texto-reg-info)
+* [Reporte para transportar tablas transparentes](https://github.com/consultoria-sap/ABAP/blob/master/codigos/transportar-tablas-transparentes/v0.abap)
 
 ### Juegos ABAP
 
