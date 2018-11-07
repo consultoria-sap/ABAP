@@ -39,6 +39,8 @@ The steps required to perform Characteristic update for customer are:
 
 View Code [v1.abap](https://github.com/consultoria-sap/ABAP/blob/master/codigos/update-characteristic-value-in-sap/v1.abap)
 
+You can download the code through this [Update_Classification_SAP](https://github.com/consultoria-sap/ABAP/blob/master/codigos/update-characteristic-value-in-sap/update-class.abap).
+
 ***
 
 Copyright © 2008-2018 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
