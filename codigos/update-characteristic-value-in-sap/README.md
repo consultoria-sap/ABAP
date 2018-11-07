@@ -35,7 +35,9 @@ The steps required to perform Characteristic update for customer are:
 * Update Characteristic Value in Sap
 * If no error occurs, commit work to Update Characteristic Value in Sap
 
+## Code
 
+View Code [v1.abap](https://github.com/consultoria-sap/ABAP/blob/master/codigos/update-characteristic-value-in-sap/v1.abap)
 
 ***
 
