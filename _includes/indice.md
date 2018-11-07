@@ -26,6 +26,7 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 * [Cómo enviar mail a un correo externo](https://github.com/consultoria-sap/ABAP/blob/master/codigos/enviar-email-externo#readme)
 * [Cómo obtener texto desde registro info proveedor](https://github.com/consultoria-sap/ABAP/tree/master/codigos/texto-reg-info)
 * [Reporte para transportar tablas transparentes](https://github.com/consultoria-sap/ABAP/blob/master/codigos/transportar-tablas-transparentes/v0.abap)
+* [Actualizar valores de características y clases de clasificación en SAP](https://github.com/consultoria-sap/ABAP/tree/master/codigos/update-characteristic-value-in-sap#readme)
 
 ### Juegos ABAP
 
