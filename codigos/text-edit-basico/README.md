@@ -13,7 +13,7 @@ En este tutorial veremos un ejemplo básico de como crear un TEXT EDIT que se mo
 
 ### Código
 
-
+https://github.com/consultoria-sap/ABAP/blob/master/codigos/text-edit-basico/v0.abap
 
 
 ***
