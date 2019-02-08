@@ -1,6 +1,6 @@
 ---
 Todos los derechos reservados a éste debate y su autor:
-http://foros.consultoria-sap.com/t/conexion-ftp-desde-abap-poo/2600/
+https://foros.consultoria-sap.com/t/conexion-ftp-desde-abap-poo/2600/
 Autor: Alvan1 
 ---
 
@@ -13,7 +13,7 @@ Requisitos:
 * Contraseña de Servidor FTP
 * Muchas ganas de aprender 
 >
->Continuar tutorial SAP ABAP sobre "[Conexión FTP desde ABAP - POO](http://foros.consultoria-sap.com/t/conexion-ftp-desde-abap-poo/2600)"
+>Continuar tutorial SAP ABAP sobre "[Conexión FTP desde ABAP - POO](https://foros.consultoria-sap.com/t/conexion-ftp-desde-abap-poo/2600)"
 
 
-Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)
