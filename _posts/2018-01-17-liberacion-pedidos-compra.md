@@ -80,4 +80,4 @@ selection-screen end of block b1.
 
 [Ver código completo](https://github.com/consultoria-sap/ABAP/blob/master/codigos/informacion-liberacion-pedidos-compra/zmmy_po_history.abap)
 
-:heart: [Agradecer al autor en Consultoria-SAP](http://foros.consultoria-sap.com/t/status-e-informacion-de-liberacion-en-pedidos-comp/16468)
+:heart: [Agradecer al autor en Consultoria-SAP](https://foros.consultoria-sap.com/t/status-e-informacion-de-liberacion-en-pedidos-comp/16468)

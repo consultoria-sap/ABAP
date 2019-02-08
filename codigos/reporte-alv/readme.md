@@ -1,6 +1,6 @@
 ---
 Todos los derechos reservados a éste debate y su autor:
-Fuente: http://foros.consultoria-sap.com/t/reporte-alv-no-me-trae-datos-quisiera/15152
+Fuente: https://foros.consultoria-sap.com/t/reporte-alv-no-me-trae-datos-quisiera/15152
 Autor: @luisa_aldana2
 ---
 
@@ -9,4 +9,4 @@ Hola amigos me encuentro realizando un reporte ALV tengo parte del programa real
 
 ***
 
-Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)

@@ -1,6 +1,6 @@
 ---
 Todos los derechos reservados a éste debate y su autor:
-http://foros.consultoria-sap.com/t/open-dataset-generar-pdf-en-as/13529
+https://foros.consultoria-sap.com/t/open-dataset-generar-pdf-en-as/13529
 Autor: @Adrian_Vera
 ---
 
@@ -8,4 +8,4 @@ Les traigo un tema que me tiene loco, he implementado un código que me permite 
 
 
 
-Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)

@@ -10,13 +10,13 @@ En estos días me encontré con un tema referente al modulo de MM, y es que trat
 Si bien sabemos que podemos usar el Legacy o un SHDB, yo estaba buscando una solución vía BAPI. Con el objetivo de que si otra persona también precisa ayuda con este tema dejo el link donde encontré un programa que esta relativamente bien estructura y legible para el propósito final.
 
 
->Tema original: http://foros.consultoria-sap.com/t/extender-materiales-de-un-centro-usando-bapis/16164
+>Tema original: https://foros.consultoria-sap.com/t/extender-materiales-de-un-centro-usando-bapis/16164
 >
->Aporte: http://foros.consultoria-sap.com/t/bapi-para-extender-un-material/16268
+>Aporte: https://foros.consultoria-sap.com/t/bapi-para-extender-un-material/16268
 >
 
 ### [Ver código](https://github.com/SidVal/ABAP/blob/master/codigos/bapi-extender-material/bapi_extender.abap)
 
 ***
 
-Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)
