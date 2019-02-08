@@ -1,6 +1,6 @@
 ---
 Todos los derechos reservados a éste debate y su autor:
-http://www.mundosap.com/foro/showpost.php?p=77344&postcount=5
+https://www.mundosap.com/foro/showpost.php?p=77344&postcount=5
 Autor: Tonnyman
 ---
 
@@ -17,5 +17,5 @@ Ver [código](https://github.com/SidVal/ABAP/blob/master/letras-dni/letras-dni.a
 
 ***
 
-Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)
 
