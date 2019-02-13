@@ -10,9 +10,9 @@ Por ejemplo supongamos que tenemos una transacción que es muy utilizada por los
 
 Y para esos casos nos ayudaran los bloqueos que a continuación muestro paso a paso.
 
-* [Ver paso a paso en SAP](http://foros.consultoria-sap.com/t/creacion-de-bloqueos-enqueue-y-dequeue/3475)
+* [Ver paso a paso en SAP](https://foros.consultoria-sap.com/t/creacion-de-bloqueos-enqueue-y-dequeue/3475)
 * [Ver código](https://github.com/SidVal/ABAP/blob/master/codigos/creacion-de-bloqueos-enqueue-y-dequeue/zprb1.abap)
 
 ***
 
-Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)

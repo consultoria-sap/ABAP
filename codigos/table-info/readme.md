@@ -4,7 +4,7 @@ Fuente: http://sgstocks.tripod.com/abap002.htm
 Aún no se abre debate sobre esto en Ayuda SAP
 ---
 
-## Display SAP Dictionary Table Information
+# Display SAP Dictionary Table Information
 
 The SAP transaction SE11 displays all the field information in a great detail. If only we could download the information into a file... or be able to search for a string...
 
@@ -16,8 +16,6 @@ I have the following text elements defined:
 
 `TEXT-001` = Specify a single table name here, or hit F8 to specify a `TEXT-002` = file name containing table names.
 
-
-
 ***
 
-Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)

@@ -1,4 +1,4 @@
-* Fuente: http://foros.consultoria-sap.com/t/22292/2?u=sidv *
+* Fuente: https://foros.consultoria-sap.com/t/22292/2?u=sidv *
 * Autor: farosales *
 
 *&---------------------------------------------------------------------*

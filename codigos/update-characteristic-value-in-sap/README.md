@@ -4,21 +4,25 @@ Autor/es: https://sap4tech.net/update-characteristic-value-in-sap/
 carpeta: true
 ---
 
+# Update characteristic
+
 This code will update characteristic value in SAP.
 First, it checks if the characteristic is already exists or if has to be created.
 Second, it updates the characteristic value.
 
-### Update characteristic value SAP Signature
+## Update characteristic value SAP Signature
 
 The following code sample is a class’s method with these parameters:
 
 Importing :
+
 * IV_OBJECTKEY TYPE OBJNUM
 * IV_KLART TYPE KLASSENART
 * IV_ATNAM TYPE ATNAM
 * IV_VALUE_NEW TYPE ATWRT
 
 Exporting :
+
 * ET_RETURN TYPE BAPIRETTAB
 
 ![Update characteristic value SAP Signature](https://sap4tech.b-cdn.net/wp-content/uploads/2015/06/Classification_02-e1446590728624.png)
@@ -43,4 +47,4 @@ You can download the code through this [Update_Classification_SAP](https://githu
 
 ***
 
-Copyright © 2008-2018 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)

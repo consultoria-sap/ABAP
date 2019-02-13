@@ -1,6 +1,6 @@
 ---
 Todos los derechos reservados a éste debate y su autor:
-http://foros.consultoria-sap.com/t/busqueda-de-un-campo/4673
+https://foros.consultoria-sap.com/t/busqueda-de-un-campo/4673
 Autor: @Naoto_Amari
 ---
 
@@ -23,4 +23,4 @@ ENDLOOP.
 
 ***
 
-Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)

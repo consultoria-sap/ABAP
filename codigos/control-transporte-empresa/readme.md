@@ -1,6 +1,6 @@
 ---
 Todos los derechos reservados a éste debate y su autor:
-http://foros.consultoria-sap.com/t/programa-transporte-de-empresa-no-trae-datos/15453
+https://foros.consultoria-sap.com/t/programa-transporte-de-empresa-no-trae-datos/15453
 Autor: @luisa_aldana2
 ---
 
@@ -20,4 +20,4 @@ Esos campos no me los trae completos y lo mas raro es que en las tablas están y
 
 ***
 
-Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)

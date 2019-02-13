@@ -1,6 +1,6 @@
 ---
 Todos los derechos reservados a éste debate y su autor:
-http://foros.consultoria-sap.com/t/valor-de-un-parameter-desde-una-variable/14349
+https://foros.consultoria-sap.com/t/valor-de-un-parameter-desde-una-variable/14349
 Autor: Machord
 ---
 
@@ -22,4 +22,4 @@ El problema es en el pa_id, que no registra el valor de gv_reg.
 
 ***
 
-Copyright © 2008-2017 - [www.Consultoria-SAP.com](http://www.Consultoria-SAP.com)
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)

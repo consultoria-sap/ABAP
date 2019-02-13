@@ -8,7 +8,7 @@ Supporting:
   * Encryption mode: ECB, CBC, PCBC, CFB, OFB, CTR.  
   * Padding standard: None, PKCS #5, PKCS #7.
 
-Please just copy the source code file into ABAP editor (Source Code-Based mode), and activate it. Or install via [abapGit](http://www.abapgit.org).
+Please just copy the source code file into ABAP editor (Source Code-Based mode), and activate it. Or install via [abapGit](https://www.abapgit.org).
 
 Classes:  
   * ZIF_AES_MODE: Interface for different encryption mode.  
@@ -26,7 +26,7 @@ Classes:
   * ZCL_AES_UTILITY: AES wrapper on ZCL_RIJNDAEL_UTILITY, just need to provide key and data.  
   * ZCL_AES_UTILITY_TEST:   
     * Testing cases of ZCL_AES_UTILITY, including encryption mode ECB, CBC, CFB, OFB, CTR, Testing of PCBC is not included yet. 
-	* Testing Data is from http://csrc.nist.gov/publications/nistpubs/800-38a/sp800-38a.pdf  
+	* Testing Data is from https://csrc.nist.gov/publications/nistpubs/800-38a/sp800-38a.pdf  
     * Testing cases of No padding and PKCS #7 padding, but only in ECB, CBC and CTR mode.  
   
 

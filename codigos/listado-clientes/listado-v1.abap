@@ -2,7 +2,7 @@
 *& Report  ZSD_LISTADO_DE_CLIENTES
 *&
 *&---------------------------------------------------------------------*
-*& http://foros.consultoria-sap.com/t/creacion-de-un-listado-de-clientes/13891/7
+*& https://foros.consultoria-sap.com/t/creacion-de-un-listado-de-clientes/13891/7
 *&
 *&---------------------------------------------------------------------*
 

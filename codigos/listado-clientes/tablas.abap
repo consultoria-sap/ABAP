@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*& http://foros.consultoria-sap.com/t/creacion-de-un-listado-de-clientes/13891/33
+*& https://foros.consultoria-sap.com/t/creacion-de-un-listado-de-clientes/13891/33
 *&---------------------------------------------------------------------*
 
 SELECT KUNNR VKBUR PLTYP VKGRP

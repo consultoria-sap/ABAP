@@ -1,6 +1,6 @@
 *&---------------------------------------------------------------------*
 *&      Form  
-*& http://foros.consultoria-sap.com/t/creacion-de-un-listado-de-clientes/13891/12
+*& https://foros.consultoria-sap.com/t/creacion-de-un-listado-de-clientes/13891/12
 *&---------------------------------------------------------------------*
 
 form datos.

@@ -1,4 +1,4 @@
-* Fuente: http://foros.consultoria-sap.com/t/insert-en-tabla-sql-sin-usar-wa-poo/22117 *
+* Fuente: https://foros.consultoria-sap.com/t/insert-en-tabla-sql-sin-usar-wa-poo/22117 *
 * Autor: Vlp89 *
 
 
