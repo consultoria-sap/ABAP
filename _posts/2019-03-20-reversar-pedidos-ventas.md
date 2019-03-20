@@ -8,12 +8,9 @@ date: 2019-03-20T13:11:54-03:00
 ---
 
 Buen día a toda la comunidad, navegando en busca de más conocimiento me encontré con el siguiente código ABAP, con información muy importante para usar la bapi BAPI_BILLINGDOC_CANCEL1 para cancelar/reversar documentos de facturación del área de ventas (SAP SD).
-
-Esta bapi cumple la misma labor que la transacción VF11.
-
 <!--more-->
 
->Nota: es requisito crear la estructura **ZMMY_PURCHASEMODIF**, como se detalla dentro del código del programa (allí están los detalles de los campos a incluir). Igualmente, en el código fuente se detallan los valores de los elementos de texto (Textos de selección y Símbolos de texto) necesarios también para ejecutar el programa correctamente.
+Esta bapi cumple la misma labor que la transacción VF11.
 
 {% highlight abap %}
 DATA:
