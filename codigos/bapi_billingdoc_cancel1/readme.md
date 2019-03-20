@@ -12,7 +12,7 @@ Esta bapi cumple la misma labor que la transacción VF11.
 
 ## Código ABAP
 
-[Ver código abap]()
+[Ver código abap](https://github.com/consultoria-sap/ABAP/blob/master/codigos/bapi_billingdoc_cancel1/billing-doc-cancel.abap)
 
 ***
 
