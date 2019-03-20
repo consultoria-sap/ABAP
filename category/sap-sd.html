@@ -1,0 +1,33 @@
+---
+layout: category
+title: SAP SD
+category: sap-sd
+---
+
+<h1>ERP SAP SD</h1>
+
+<p>SAP MM se encarga de procesos de ventas, y distribución de los materiales. Al ser parte básica del SAP ECC está completamente integrado con otros módulos clave como SAP FI, SAP CO, y SAP MM.
+</p>
+<p>
+SAP SD cubre todas las tareas relacionadas con la cadena de suministro, incluyendo planificación de ventas, planificación logística, solicitudes de clientes y verificación de créditos a clientes, etc. Incluye además gestión de inventario y almacenes para organizar el stock hasta que el uso de éste haga que el ciclo de salidas tenga en cuenta el stock disponible para otros pedidos de ventas.
+</p>
+
+
+<h2>Componentes de SD</h2>
+
+En desarrollo ... (si necesitas ayuda, por favor abre un tema en nuestros <a href="https://foros.consultoria-sap.com" target="_blank" title="Foros SAP"><b>foros SAP</b></a>)
+
+<br />
+<hr />
+<br /><br />
+<h2>Publicaciones destacadas sobre SAP SD</h2>
+<br />
+<ul>
+{% for post in site.categories[page.category] %}
+   <li>
+      <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+      {{ post.title }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
