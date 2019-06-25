@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="lang_user.xslt"?>
+<XMLConfigSettings>
+	<FILEINFO>
+		<Author>Attila Berencsi sapmen.com</Author>
+		<Type>LangUser</Type>
+		<Language>ABAP</Language>
+		<Desc>User specific settings for ABAP</Desc>
+	</FILEINFO>
+	<EXPANDS>
+		<Expand key="***">
+			<Descr>***.....</Descr>
+			<Text>**********************************************************************</Text>
+		</Expand>
+		<Expand key="ife">
+			<Descr>If (§) Else</Descr>
+			<Text>IF |.\n%SurroundedText%\nELSE.\n\nENDIF.</Text>
+		</Expand>
+		<Expand key="loop">
+			<Descr>Loop (§)</Descr>
+			<Text>LOOP AT |.\n%SurroundedText%\nENDLOOP.</Text>
+		</Expand>
+		<Expand key="case">
+			<Descr>Case (§)</Descr>
+			<Text>CASE |.\n	WHEN .\n	WHEN .\n	WHEN OTHERS.\nENDCASE.</Text>
+		</Expand>
+		<Expand key="try">
+			<Descr>Try (§)</Descr>
+			<Text>TRY |.\n%SurroundedText%\nCATCH .\n\nENDTRY.</Text>
+		</Expand>
+		<Expand key="define">
+			<Descr>Define (§)</Descr>
+			<Text>DEFINE |.\n%SurroundedText%\nEND-OF-DEFINITION.</Text>
+		</Expand>
+		<Expand key="hdrg">
+			<Descr>GateWay</Descr>
+			<Text></Text>
+		</Expand>
+		<Expand key="while">
+			<Descr>While (§)</Descr>
+			<Text>WHILE |.\n%SurroundedText%\nENDWHILE.</Text>
+		</Expand>
+		<Expand key="hdre">
+			<Descr>ECC</Descr>
+			<Text>*-Description----------------------------------------------------------*\n* %Description%\n*----------------------------------------------------------------------*\n*-Creation-------------------------------------------------------------*\n* Author:       Attila Berencsi\n* SAP Version:  EHP7 for SAP ERP 6.0\n* Date:         %DateTime%\n*----------------------------------------------------------------------*</Text>
+		</Expand>
+		<Expand key="do">
+			<Descr>Do (§)</Descr>
+			<Text>DO | TIMES.\n%SurroundedText%\nENDDO.</Text>
+		</Expand>
+		<Expand key="if">
+			<Descr>If (§)</Descr>
+			<Text>IF |.\n%SurroundedText%\nENDIF.</Text>
+		</Expand>
+		<Expand key="*--"><Descr>*-------...</Descr><Text>*--------------------------------------------------------------------*</Text></Expand><Expand key="region"><Descr>Region (§)</Descr><Text>"$. Region %Region Name%\n%SurroundedText%\n"$. Endregion %Region Name%</Text></Expand></EXPANDS>
+</XMLConfigSettings>
