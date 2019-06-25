@@ -9,7 +9,9 @@ https://foros.consultoria-sap.com/t/cambiar-color-de-editor-de-codigo-abap-se38-
 No sé si alguien ya lo ha explicado en este foro el como cambiar el color de fondo del editor ABAP (como me explicó un colega), si bien sé hay una opción en el editor en la que podemos ir cambiando cada parte la cual deseemos personalizar pero podemos ahorrarnos ese trabajo subiendo una plantilla con toda la personalización.
 
 * Ver paso a paso en el foro, [este tutorial](https://foros.consultoria-sap.com/t/cambiar-color-de-editor-de-codigo-abap-se38-y-se80/19877).
-* [Archivo necesario](https://github.com/SidVal/ABAP/blob/master/codigos/cambiar-color-de-editor-abap/abap_spec.xml)
+* Archivos necesarios: 
+  * [Abap_spec](https://github.com/SidVal/ABAP/blob/master/codigos/cambiar-color-de-editor-abap/abap_spec.xml)
+  * [Abap_user](https://github.com/consultoria-sap/ABAP/blob/master/codigos/cambiar-color-de-editor-abap/abap_user.xml)
 
 ***
 
