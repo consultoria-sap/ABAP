@@ -1,0 +1,24 @@
+---
+layout: category
+title: SAP ABAP
+category: sap-abap
+---
+
+<h1>SAP ABAP</h1>
+
+<p>ABAP (significa: "Advanced Business Application Programming") y es un lenguaje (de programación) de cuarta generación (podemos verlo abreviado como ABAP4 o bien ABAP/4), propiedad de SAP AG, que se utiliza para programar la mayoría de sus productos SAP (R/3, mySAP Business suite, entre otros).
+</p>
+
+<p>Más información en <a href="https://www.consultoria-sap.com/2017/03/que-es-sap-abap.html" title="Qué es SAP ABAP">"¿Qué es SAP ABAP?"</a></p>
+
+<h2>Publicaciones destacadas sobre SAP ABAP</h2>
+<br />
+<ul>
+{% for post in site.categories[page.category] %}
+   <li>
+      <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+      {{ post.title }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
