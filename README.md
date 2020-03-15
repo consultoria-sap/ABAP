@@ -9,4 +9,4 @@ Por el momento este es el sitio web del repositorio.
 Se ha proyectado fusionarlo con el dominio principal de **Consultoria-SAP.com** muy pronto.
 
 ***
-Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)
+Copyright © 2008-2020 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)
