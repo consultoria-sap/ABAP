@@ -2,7 +2,7 @@
 layout: base
 title: Glosario SAP
 permalink: /glosario-sap/
-canonical: https://sidval.github.io/ABAP/glosario-sap/
+canonical: https://consultoria-sap.github.io/ABAP/glosario-sap/
 images: https://m.consultoria-sap.com/img/p/sap-696522.jpg
 images_w: 696
 images_h: 522
