@@ -29,6 +29,7 @@ ABAP Utilities for AES encryption, decryption under MIT License.
 * [Actualizar valores de características y clases de clasificación en SAP](https://github.com/consultoria-sap/ABAP/tree/master/codigos/update-characteristic-value-in-sap#readme)
 * [Encontrar UserExits](https://github.com/consultoria-sap/ABAP/blob/master/codigos/encontrar-userexits/code.abap)
 * [Uso de BAPI: bapi_billingdoc_cancel1](https://github.com/consultoria-sap/ABAP/blob/master/codigos/bapi_billingdoc_cancel1/billing-doc-cancel.abap)
+* [SOAP HEADER Web Service](https://github.com/consultoria-sap/ABAP/tree/master/codigos/soap-header-web-service)
 
 ## Juegos ABAP
 
