@@ -7,7 +7,7 @@ images: https://m.consultoria-sap.com/img/p/sap-696522.jpg
 images_w: 696
 images_h: 522
 published: 2017-07-10
-modified: 2017-07-10
+modified: 2020-05-12
 autor: "SidV"
 descripcion: "Aprende ahora los conceptos más usados en SAP. Encuentra manuales, tutoriales, descargas, y todo lo necesario para dominar el programa SAP en tu idioma."
 figura_desc: "Glosario SAP español"
