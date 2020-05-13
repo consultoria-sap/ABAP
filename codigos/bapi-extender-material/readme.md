@@ -19,4 +19,4 @@ Si bien sabemos que podemos usar el Legacy o un SHDB, yo estaba buscando una sol
 
 ***
 
-Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)
+Copyright © 2008-2020 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)
