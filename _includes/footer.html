@@ -4,7 +4,7 @@
         {% if site.github.is_project_page %}
         <p>Este proyecto de <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> está en GitHub, y tiene licencias.</p>
         {% endif %}
-        <p><small>Copyright © 2008-2020 <a href="https://www.consultoria-sap.com" title="Consultoria-SAP.com">Consultoria-SAP.com</a> - Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p id="copyright-year"><small>Copyright © 2008-2023 <a href="https://www.consultoria-sap.com" title="Consultoria-SAP.com">Consultoria-SAP.com</a> - Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     
@@ -20,6 +20,20 @@
         ga('send', 'pageview');
     </script>
   {% endif %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var currentYear = new Date().getFullYear();
+    var copyrightYear = document.getElementById('copyright-year');
+    
+    if (copyrightYear) {
+      var existingText = copyrightYear.innerHTML;
+      var updatedText = existingText.replace(/2008-\d{4}/, "2008-" + currentYear);
+      copyrightYear.innerHTML = updatedText;
+    }
+  });
+</script>
+
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   </body>
