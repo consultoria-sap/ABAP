@@ -1,0 +1,24 @@
+name: "Normalizar: README a index.md"
+
+on:
+  workflow_dispatch: # Ejecución manual desde la pestaña Actions
+
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Renombrar archivos
+        run: |
+          # Buscamos todos los README.md dentro de /docs/ (excepto el de la raíz si existe)
+          find docs/ -mindepth 2 -name "README.md" -exec bash -c 'mv "$1" "${1%README.md}index.md"' _ {} \;
+          echo "Renombrado completado."
+
+      - name: Commit y Push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🚚 Refactor: README.md -> index.md para URLs limpias"
