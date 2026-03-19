@@ -1,8 +1,6 @@
 ---
-title: Debug Popup SAP
-url: /debug-popup-sap/
-category: cross
-published: true
+title: "Debug Popup SAP"
+description: "Código para realizar depuración directa a través del debugging"
 created: 2018-05-21T11:51:54-03:00
 ---
 
