@@ -8,6 +8,7 @@ description: "Programas, Clases y Reportes SAP listos para usar"
 Explora nuestra colección de programas y utilidades desarrolladas para entornos SAP.
 
 <script setup>
+import { withBase } from 'vitepress'
 import { data as programas } from './codigos.data.mjs'
 </script>
 
