@@ -7,7 +7,7 @@ export default defineConfig({
   // outDir debe ser relativo a donde se ejecuta el comando
   outDir: './.vitepress/dist',
   cleanUrls: true,
-  appearance: 'dark',
+  // appearance: 'dark',
   ignoreDeadLinks: true, 
   // ELIMINAMOS srcDir: 'docs' porque ya se lo pasamos por comando
   themeConfig: {
