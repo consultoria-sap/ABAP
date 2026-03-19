@@ -28,4 +28,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Migración: carpeta codigos movida a /docs"
-          branch: main # Cambiá a master si es el nombre de tu rama
+          branch: master # Cambiá a master si es el nombre de tu rama
