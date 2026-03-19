@@ -1,0 +1,31 @@
+name: Migrar Carpetas a Docs
+
+on:
+  workflow_dispatch: # Esto permite que lo ejecutes manualmente con un botón
+
+jobs:
+  move-files:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Necesario para que la Action pueda hacer commit de los cambios
+    steps:
+      - name: Checkout del repo
+        uses: actions/checkout@v6
+
+      - name: Crear carpeta docs si no existe
+        run: mkdir -p docs
+
+      - name: Mover carpeta codigos a docs
+        run: |
+          if [ -d "codigos" ]; then
+            mv codigos docs/
+            echo "Carpeta codigos movida con éxito."
+          else
+            echo "La carpeta codigos no existe en la raíz."
+          fi
+
+      - name: Commit y Push de los cambios
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Migración: carpeta codigos movida a /docs"
+          branch: master # Cambiá a master si es el nombre de tu rama

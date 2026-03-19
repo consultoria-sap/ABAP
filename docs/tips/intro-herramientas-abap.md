@@ -1,10 +1,9 @@
 ---
-layout: post
 title: Introducción a las herramientas de desarrollo ABAP
 url: /intro-herramientas-abap/
 category: sap-abap
 published: true
-date: 2019-11-07T10:30:54-03:00
+created: 2019-11-07T10:30:54-03:00
 ---
 
 Con la introducción del desarrollo ágil en ABAP, las Herramientas de desarrollo ABAP se han convertido rápidamente en una herramienta popular y fácil de usar al programar con ABAP.
@@ -45,7 +44,7 @@ Una plantilla de código es un patrón de código que puede editar. Si ingresa u
 * Por ejemplo, ingrese el nombre corto "`ltc`" en el campo _Nombre_ y la descripción _"Clase de prueba local"_ en el campo Descripción.
 Ingrese el texto de la lista a continuación en el campo Patrón y haga clic en el botón Aceptar.
 
-![Screen Template View](https://consultoria-sap.github.io/ABAP/img/screen_template_view.jpg)
+![Screen Template View](../img/screen_template_view.jpg)
 
 La siguiente lista contiene las siguientes variables de Herramientas de desarrollo ABAP:
 
@@ -83,7 +82,7 @@ Las herramientas de desarrollo ABAP le ayudan a reemplazar las variables marcand
 
 A continuación se muestra un extracto de este contenido de ayuda especial.
 
-![Screen Help Content](https://consultoria-sap.github.io/ABAP/img/screen_help_content.png)
+![Screen Help Content](../img/screen_help_content.png)
 
 ### Conclusión
 
