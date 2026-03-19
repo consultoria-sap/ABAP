@@ -1,8 +1,9 @@
 # ABAP
 Cosas ABAP para Consultoria-SAP.com
 
-## Colaboración 
+## Colaboración
 Si queres ayudar con este repositorio, avisame a través del [foro de Ayuda SAP](https://foros.consultoria-sap.com).
+Intenté explicar cómo ayudar en el [Wiki del repo](https://github.com/consultoria-sap/abap/wiki).
 
 ## Web
 
