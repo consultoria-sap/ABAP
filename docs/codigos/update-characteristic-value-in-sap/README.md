@@ -1,7 +1,7 @@
 ---
-Nota: Todos los derechos reservados a éste debate y sus autores
-Autor/es: https://sap4tech.net/update-characteristic-value-in-sap/
-carpeta: true
+title: "Update Characteristic Value In Sap"
+description: "This code will update characteristic value in SAP. First, it checks if the characteristic is already exists or if has to be created. Second, it update..."
+fuente: "Archivo Histórico SAP"
 ---
 
 # Update characteristic
