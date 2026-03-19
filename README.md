@@ -3,12 +3,14 @@ Cosas ABAP para Consultoria-SAP.com
 
 ## Colaboración
 Si queres ayudar con este repositorio, avisame a través del [foro de Ayuda SAP](https://foros.consultoria-sap.com).
+
 Intenté explicar cómo ayudar en el [Wiki del repo](https://github.com/consultoria-sap/abap/wiki).
 
-## Web
+## Repositorio ABAP
 
-Por el momento este es el sitio web del repositorio.
-Se ha proyectado fusionarlo con el dominio principal de **Consultoria-SAP.com** muy pronto.
+- Por el momento [este es el sitio web](https://consultoria-sap.github.io/abap/) del repositorio de códigos ABAP
+- Existe también un [repositorio para códigos de SAP Business One](https://consultoria-sap.github.io/business-one/).
+
 
 ### No Jekyll
 
