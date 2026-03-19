@@ -1,9 +1,9 @@
 name: Deploy VitePress site to Pages
 
 on:
-  workflow_dispatch:
-  # push:
-  #   branches: [main] # Cambiá a 'master' si tu rama principal se llama así
+  push:
+    branches: [master] # Configurado para tu rama master
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
 
 permissions:
   contents: read
@@ -18,19 +18,25 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
           node-version: 20
-          cache: 'npm'
+          # Quitamos el cache temporalmente hasta que tengas un package-lock.json
+
       - name: Install dependencies
-        run: npm add -D vitepress vue
+        run: |
+          if [ ! -f package.json ]; then npm init -y; fi
+          npm install -D vitepress vue
+
       - name: Build with VitePress
-        run: npx vitepress build
+        run: npx vitepress build docs
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: .vitepress/dist
+          path: docs/.vitepress/dist
 
   deploy:
     environment:
