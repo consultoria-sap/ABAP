@@ -15,6 +15,7 @@ No sé si alguien ya lo ha explicado en este foro el como cambiar el color de fo
 
 ***
 
+El usuario [@juanrangel](https://foros.consultoria-sap.com/u/juanrangel/summary) respondió lo siguiente:
 
 > Hola colegas ha pasado mucho tiempo desde el ultimo comentario sobre este tema, sin embargo le he dedicado un poco de tiempo y en base a algunas plantillas que encontré he logrado armar los siguientes temas para el editor de código ABAP.
 > 
