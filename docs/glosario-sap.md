@@ -1,5 +1,4 @@
 ---
-layout: base
 title: Glosario SAP
 permalink: /glosario-sap/
 canonical: https://consultoria-sap.github.io/ABAP/glosario-sap/
