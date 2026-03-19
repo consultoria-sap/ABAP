@@ -1,8 +1,6 @@
 ---
-title: Reversar Pedidos Ventas
-url: /reversar-pedidos-ventas/
-category: sap-sd
-published: true
+title: "Reversar Pedidos Ventas"
+description: "Cómo usar la bapi BAPI_BILLINGDOC_CANCEL1 para cancelar/reversar documentos de facturación"
 created: 2019-03-20T13:11:54-03:00
 ---
 
