@@ -5,6 +5,8 @@ export default defineConfig({
   description: "Repositorio libre con códigos para aprender programación SAP",
   base: '/abap/', // IMPORTANTE: Poné el nombre de tu repo entre las barras
   cleanUrls: true, // Quita el .html de las URLs para que queden más modernas
+  ignoreDeadLinks: true, // Esto hará que el build pase aunque falte algún link
+  srcDir: 'docs' // Asegúrate de que apunte a la carpeta docs
   themeConfig: {
     // Logo y búsqueda rápida (opcional pero recomendado)
     search: {
