@@ -3,15 +3,15 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Tips de SAP ABAP",
   description: "Repositorio libre con códigos para aprender programación SAP",
-  base: '/abap/', // IMPORTANTE: Poné el nombre de tu repo entre las barras
-  cleanUrls: true, // Quita el .html de las URLs para que queden más modernas
-  ignoreDeadLinks: true, // Esto hará que el build pase aunque falte algún link
-  srcDir: 'docs' // Asegúrate de que apunte a la carpeta docs
+  base: '/abap/', 
+  // outDir debe ser relativo a donde se ejecuta el comando
+  outDir: './.vitepress/dist',
+  cleanUrls: true,
+  appearance: 'dark',
+  ignoreDeadLinks: true, 
+  // ELIMINAMOS srcDir: 'docs' porque ya se lo pasamos por comando
   themeConfig: {
-    // Logo y búsqueda rápida (opcional pero recomendado)
-    search: {
-      provider: 'local'
-    },
+    search: { provider: 'local' },
     nav: [
       { text: 'Inicio', link: '/' },
       { text: 'Tips ABAP', link: '/tips' }
@@ -21,27 +21,16 @@ export default defineConfig({
         text: 'Contenido',
         items: [
           { text: 'Introducción', link: '/' },
-          { text: 'Códigos ABAP', link: '/codigos' },
+          { text: 'Códigos ABAP', link: '/codigos/' }, // Agregamos la barra final
         ]
       }
     ],
-
-  socialLinks: [
+    socialLinks: [
       { icon: 'github', link: 'https://github.com' }
     ],
-
     footer: {
       message: 'Publicado originalmente en 2017. Migrado a VitePress.',
       copyright: 'Copyright © 2008-presente'
-    },
-
-    // Muestra la fecha del último commit de Git en cada página
-    lastUpdated: {
-      text: 'Actualizado el',
-      formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'short'
-      }
     }
   }
 })
