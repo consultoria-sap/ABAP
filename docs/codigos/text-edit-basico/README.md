@@ -1,7 +1,7 @@
 ---
 title: "Text Edit Basico"
 description: "https://foros.consultoria-sap.com/t/tutorial-text-edit-basico/31272  Muchas veces nos encontramos con problemas al mostrar o recibir textos largos, es..."
-fuente: "SAP Community"
+fuente: "Archivo Histórico SAP"
 ---
 
 https://foros.consultoria-sap.com/t/tutorial-text-edit-basico/31272

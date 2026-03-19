@@ -1,7 +1,7 @@
 ---
 title: "Zftp001"
-description: "Documentación técnica de ABAP"
-fuente: "SAP Community"
+description: "<<< @/codigos/ZFTP001/ZFTP001_MIMP.abap..."
+fuente: "Archivo Histórico SAP"
 ---
 
 # Zftp001

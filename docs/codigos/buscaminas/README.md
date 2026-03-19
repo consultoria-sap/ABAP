@@ -1,10 +1,19 @@
 ---
 title: "Buscaminas"
-description: "Documentación técnica de ABAP"
-fuente: "SAP Community"
+description: "En este [debate sobre juegos ABAP](https://foros.consultoria-sap.com/t/creacion-de-juegos-en-abap/30279), _@iespino_ pasó un enlace de un foro: `h_tp:..."
+fuente: "Archivo Histórico SAP"
 ---
 
 # Buscaminas
 
+En este [debate sobre juegos ABAP](https://foros.consultoria-sap.com/t/creacion-de-juegos-en-abap/30279), _@iespino_ pasó un enlace de un foro: `h_tp://www.abap.es/foro/index.php?topic=5635.0`, sin embargo en ese debate se aclara que el autor del debate copió y pegó el código sin especificar la fuente (muy mal).
 
-<<< @/codigos/buscaminas/v0.abap
+El código está aquí para probar: [v0](https://github.com/consultoria-sap/ABAP/blob/master/codigos/buscaminas/v0.abap)
+
+Por favor, si tienes modificaciones, pasar aquí o en el debate sobre los juegos =)
+
+Saludos
+
+***
+
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)

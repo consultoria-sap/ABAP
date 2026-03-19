@@ -1,7 +1,7 @@
 ---
 title: "Src"
-description: "Documentación técnica de ABAP"
-fuente: "SAP Community"
+description: "<<< @/codigos/src/zcl_byte_padding_utility.clas.abap..."
+fuente: "Archivo Histórico SAP"
 ---
 
 # Src

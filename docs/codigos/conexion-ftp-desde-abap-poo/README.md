@@ -1,10 +1,19 @@
 ---
 title: "Conexion Ftp Desde Abap Poo"
-description: "Documentación técnica de ABAP"
-fuente: "SAP Community"
+description: ">Hola comunidad hoy les quiero presentar un tema que en algún momento les puede solucionar muchos dolores de cabeza cuando se presente el tema. >Les h..."
+fuente: "Archivo Histórico SAP"
 ---
 
-# Conexion Ftp Desde Abap Poo
+>Hola comunidad hoy les quiero presentar un tema que en algún momento les puede solucionar muchos dolores de cabeza cuando se presente el tema.
+>Les hablo de la conexión FTP (File Transfer Protocol) desde ABAP, que es esto? Simple es la comunicación entre un servidor externo para poder acceder a sus archivos, ver carpetas, etc. Y esta vez vamos a hacer esta interacción desde nuestro programa ABAP a un Servidor externo que tiene como S.O. Windows 7.
+Requisitos:
+>
+* Servidor FTP
+* Usuario del Servidor FTP
+* Contraseña de Servidor FTP
+* Muchas ganas de aprender 
+>
+>Continuar tutorial SAP ABAP sobre "[Conexión FTP desde ABAP - POO](https://foros.consultoria-sap.com/t/conexion-ftp-desde-abap-poo/2600)"
 
 
-<<< @/codigos/conexion-ftp-desde-abap-poo/bloqueos.abap
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)

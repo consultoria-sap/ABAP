@@ -1,10 +1,26 @@
 ---
 title: "Busqueda Campo Smartform"
-description: "Documentación técnica de ABAP"
-fuente: "SAP Community"
+description: "Buenas amigos saperos, saben que tengo un smartforms que tiene un loop, el cual tiene un tabla interna ITEMS INTO W_ITEMS la cual la declaran del tipo..."
+fuente: "Archivo Histórico SAP"
 ---
 
-# Busqueda Campo Smartform
+Buenas amigos saperos, saben que tengo un smartforms que tiene un loop, el cual tiene un tabla interna ITEMS INTO W_ITEMS la cual la declaran del tipo en Datos Globales type ZFIES_BNKCON y en la parte de inicializacion lo usan en:
+
+```abap
+LOOP AT items INTO w_items.
+  CLEAR: tam, hkont.
+  tam = STRLEN( w_items-nrcta0 ).
+  tam = tam - 1.
+  CONCATENATE w_items-nrcta0(tam) '2' INTO hkont.
+  w_hkont-sign = 'I'.
+  w_hkont-option = 'BT'.
+  w_hkont-low    = w_items-nrcta0.
+  w_hkont-high   = hkont.
+  APPEND w_hkont TO r_hkont.
+ENDLOOP.
+```
 
 
-<<< @/codigos/busqueda-campo-smartform/ZFIRP_GENERALES.abap
+***
+
+Copyright © 2008-2019 - [www.Consultoria-SAP.com](https://www.Consultoria-SAP.com)

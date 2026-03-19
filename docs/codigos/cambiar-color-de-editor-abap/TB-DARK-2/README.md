@@ -1,7 +1,7 @@
 ---
 title: "Tb Dark 2"
-description: "Documentación técnica de ABAP"
-fuente: "SAP Community"
+description: "Documentación técnica ABAP"
+fuente: "Archivo Histórico SAP"
 ---
 
 # Tb Dark 2

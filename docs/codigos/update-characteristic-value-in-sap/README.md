@@ -1,7 +1,7 @@
 ---
 title: "Update Characteristic Value In Sap"
 description: "This code will update characteristic value in SAP. First, it checks if the characteristic is already exists or if has to be created. Second, it update..."
-fuente: "SAP Community"
+fuente: "Archivo Histórico SAP"
 ---
 
 # Update characteristic

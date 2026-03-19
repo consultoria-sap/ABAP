@@ -1,7 +1,7 @@
 ---
 title: "Codigos"
-description: "Documentación técnica de ABAP"
-fuente: "SAP Community"
+description: "Documentación técnica ABAP"
+fuente: "Archivo Histórico SAP"
 ---
 
 # Codigos

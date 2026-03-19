@@ -1,7 +1,7 @@
 ---
 title: "Soap Header Web Service"
 description: "Hola   Me encuentro con un tema el cual es nuevo para mi, el requerimiento que tengo va de consumir dos servicios web, el primero me da una clave de a..."
-fuente: "SAP Community"
+fuente: "Archivo Histórico SAP"
 ---
 
 Hola 

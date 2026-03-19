@@ -1,7 +1,7 @@
 ---
 title: "Encontrar Userexits"
-description: "Documentación técnica de ABAP"
-fuente: "SAP Community"
+description: "<<< @/codigos/encontrar-userexits/code.abap..."
+fuente: "Archivo Histórico SAP"
 ---
 
 # Encontrar Userexits

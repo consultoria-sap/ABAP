@@ -1,7 +1,7 @@
 ---
 title: "Pagos"
 description: "La rutina COMPENSAR_PARTIDA realiza la contabilización y compensación de una partida financiera. Con rellenar la tabla `FTCLEAR` con los documentos qu..."
-fuente: "SAP Community"
+fuente: "Archivo Histórico SAP"
 ---
 
 # Pagos Parciales SAP

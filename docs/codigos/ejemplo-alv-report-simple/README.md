@@ -1,7 +1,7 @@
 ---
 title: "Ejemplo Alv Report Simple"
-description: "Documentación técnica de ABAP"
-fuente: "SAP Community"
+description: "<<< @/codigos/ejemplo-alv-report-simple/v0.abap..."
+fuente: "Archivo Histórico SAP"
 ---
 
 # Ejemplo Alv Report Simple
