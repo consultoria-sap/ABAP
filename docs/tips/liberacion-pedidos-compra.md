@@ -1,19 +1,17 @@
 ---
-layout: post
 title: Status e Información sobre Liberación de OC
 url: /liberacion-pedidos-compra/
 category: sap-mm
 published: true
-date: 2018-01-17T11:11:54-03:00
+created: 2018-01-17T11:11:54-03:00
 ---
 
 Buen día a toda la comunidad, navegando en busca de más conocimiento me encontré con el siguiente código ABAP, para un reporte que nos muestra iniformación del las liberaciones en nuestros pedidos de Compra. Leyendo las tablas de pedidos (**EKKO** y **EKPO**), además el historial de modificaciones de los documentos
 
-<!--more-->
+> Nota: es requisito crear la estructura **ZMMY_PURCHASEMODIF**, como se detalla dentro del código del programa (allí están los detalles de los campos a incluir). Igualmente, en el código fuente se detallan los valores de los elementos de texto (Textos de selección y Símbolos de texto) necesarios también para ejecutar el programa correctamente.
 
->Nota: es requisito crear la estructura **ZMMY_PURCHASEMODIF**, como se detalla dentro del código del programa (allí están los detalles de los campos a incluir). Igualmente, en el código fuente se detallan los valores de los elementos de texto (Textos de selección y Símbolos de texto) necesarios también para ejecutar el programa correctamente.
+```abap
 
-{% highlight abap %}
 ********************************************************************
 
 report  zmmy_po_history.
@@ -74,7 +72,7 @@ selection-screen end of block b1.
 
 * ... Continúa el código  *
 
-{% endhighlight %}
+```
 
 ***
 
