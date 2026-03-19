@@ -1,10 +1,8 @@
 ---
 title: "Reuse_Alv_Hierseq_List_Display"
-description: "h_tps://archive.sap.com/discussions/thread/93748  I learned the program BALVHD01_GROUP but I alway got error  Runtime Errors ITAB_ILLEGAL_COMPONENT  0..."
+description: "I learned the program BALVHD01_GROUP but I alway got error"
 fuente: "Archivo Histórico SAP"
 ---
-
-h_tps://archive.sap.com/discussions/thread/93748
 
 I learned the program BALVHD01_GROUP but I alway got error
 
@@ -25,6 +23,9 @@ SORT RT_OUTTAB STABLE
 000750 BY (A01) ASCENDING
 
 please help me~ thanks
+
+> h_tps://archive.sap.com/discussions/thread/93748
+
 
 ***
 
