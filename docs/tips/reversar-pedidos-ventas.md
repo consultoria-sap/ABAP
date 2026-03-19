@@ -1,18 +1,17 @@
 ---
-layout: post
-title: Reversar Pedidos Ventas - SAP SD
+title: Reversar Pedidos Ventas
 url: /reversar-pedidos-ventas/
 category: sap-sd
 published: true
-date: 2019-03-20T13:11:54-03:00
+created: 2019-03-20T13:11:54-03:00
 ---
 
 Buen día a toda la comunidad, navegando en busca de más conocimiento me encontré con el siguiente código ABAP, con información muy importante para usar la bapi BAPI_BILLINGDOC_CANCEL1 para cancelar/reversar documentos de facturación del área de ventas (SAP SD).
-<!--more-->
+
 
 Esta bapi cumple la misma labor que la transacción VF11.
 
-{% highlight abap %}
+```abap
 DATA:
 lv_doc         LIKE bapivbrksuccess–bill_doc,
 lv_date       TYPE bf_datm1eb,
@@ -35,7 +34,7 @@ success = t_success.
 
 *La tabla t_return devuelve todos los mensajes ocurridos durante la cancelación.
 *La tabla t_succes devuelve, entre otros datos, el número de la cancelación.
-{% endhighlight %}
+```
 
 ***
 
