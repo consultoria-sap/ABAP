@@ -1,0 +1,74 @@
+name: Normalizar READMEs de ABAP
+
+on:
+  workflow_dispatch: # Se ejecuta manualmente
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Ejecutar Script de Limpieza
+        run: |
+          python -c "
+          import os, re
+
+          base_path = 'docs/codigos'
+          if not os.path.exists(base_path):
+              print('No se encontró la carpeta docs/codigos')
+              exit(0)
+
+          for root, dirs, files in os.walk(base_path):
+              # Buscamos o creamos el README.md
+              readme_path = os.path.join(root, 'README.md')
+              
+              content = ''
+              if os.path.exists(readme_path):
+                  with open(readme_path, 'r', encoding='utf-8') as f:
+                      content = f.read()
+              
+              # Extraer texto limpio para la descripción (quitamos frontmatter y headers)
+              text_only = re.sub(r'---.*?---', '', content, flags=re.DOTALL)
+              text_only = re.sub(r'#+.*', '', text_only).strip()
+              description = (text_only[:150] + '...') if len(text_only) > 10 else 'Documentación técnica de ABAP'
+              description = description.replace('\"', '').replace('\n', ' ')
+
+              # Definir título basado en el nombre de la carpeta
+              folder_name = os.path.basename(root).replace('-', ' ').title()
+
+              # Crear el nuevo Frontmatter seguro
+              new_frontmatter = (
+                  '---\n'
+                  f'title: \"{folder_name}\"\n'
+                  f'description: \"{description}\"\n'
+                  'fuente: \"SAP Community\"\n'
+                  '---\n\n'
+              )
+
+              # Si el archivo existía, quitamos su frontmatter viejo y pegamos el nuevo
+              if content:
+                  clean_content = re.sub(r'---.*?---', '', content, flags=re.DOTALL).strip()
+                  final_body = new_frontmatter + clean_content
+              else:
+                  # Si no existía, intentamos embeber el código .abap si hay uno en la carpeta
+                  abap_files = [f for f in os.listdir(root) if f.endswith('.abap')]
+                  code_embed = f'\n\n<<< @/codigos/{os.path.basename(root)}/{abap_files[0]}' if abap_files else ''
+                  final_body = new_frontmatter + f'# {folder_name}\n' + code_embed
+
+              with open(readme_path, 'w', encoding='utf-8') as f:
+                  f.write(final_body)
+          "
+
+      - name: Commit y Push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🔧 Auto-normalización de READMEs para VitePress"
