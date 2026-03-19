@@ -30,21 +30,3 @@ jobs:
           if [ ! -f package.json ]; then npm init -y; fi
           npm install -D vitepress vue
 
-      - name: Build with VitePress
-        run: npx vitepress build docs
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: docs/.vitepress/dist
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
