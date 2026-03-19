@@ -1,10 +1,9 @@
 ---
 title: "Zftp001"
-description: "<<< @/codigos/ZFTP001/ZFTP001_MIMP.abap..."
+description: "Conexión FTP (File Transfer Protocol) desde ABAP"
 fuente: "Archivo Histórico SAP"
 ---
 
 # Zftp001
 
-
-<<< @/codigos/ZFTP001/ZFTP001_MIMP.abap
+- Ver contenido de subcarpeta
