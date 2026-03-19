@@ -1,6 +1,5 @@
 ---
-Todos los derechos reservados a éste debate y su autor
-https://foros.consultoria-sap.com/t/conexion-ftp-desde-abap-poo/2600/
+rights: Todos los derechos reservados a éste debate y su autor https://foros.consultoria-sap.com/t/conexion-ftp-desde-abap-poo/2600/
 Autor: Alvan1 
 ---
 
