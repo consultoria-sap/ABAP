@@ -5,16 +5,12 @@ export default createContentLoader('codigos/*/README.md', {
   render: false,
   transform(raw) {
     return raw
-      .map(({ url, frontmatter }) => {
-        // Limpiamos la URL para que apunte a la carpeta, no al README.html
-        const cleanUrl = url.replace('README.html', '')
-        
-        return {
-          title: frontmatter.title || url.split('/')[2].replace(/-/g, ' ').toUpperCase(),
-          url: cleanUrl,
-          description: frontmatter.description || 'Programa ABAP / Objeto de Diccionario'
-        }
-      })
-      .sort((a, b) => a.title.localeCompare(b.title)) // Orden alfabético por título
+      .map(({ url, frontmatter }) => ({
+        // Limpiamos la URL para que no termine en /README.html
+        url: url.replace('README.html', ''),
+        title: frontmatter.title || 'Programa sin título',
+        description: frontmatter.description || 'Documentación técnica de ABAP.'
+      }))
+      .sort((a, b) => a.title.localeCompare(b.title))
   }
 })
