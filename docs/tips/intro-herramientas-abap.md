@@ -1,10 +1,9 @@
 ---
-layout: post
 title: Introducción a las herramientas de desarrollo ABAP
 url: /intro-herramientas-abap/
 category: sap-abap
 published: true
-date: 2019-11-07T10:30:54-03:00
+created: 2019-11-07T10:30:54-03:00
 ---
 
 Con la introducción del desarrollo ágil en ABAP, las Herramientas de desarrollo ABAP se han convertido rápidamente en una herramienta popular y fácil de usar al programar con ABAP.
