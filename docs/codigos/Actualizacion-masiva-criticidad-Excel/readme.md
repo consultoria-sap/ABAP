@@ -1,7 +1,7 @@
 ---
-Nota: Todos los derechos reservados a sus autores
-Autor/es: iespino00
-carpeta: true
+title: "Actualización masiva la criticidad del Material"
+description: "Sirve para actualizar de manera masiva la criticidad de un material"
+Autor: "iespino00"
 ---
 
 # Actualización masiva la criticidad del Material
