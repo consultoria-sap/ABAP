@@ -19,7 +19,7 @@ export default defineConfig({
         text: 'Contenido',
         items: [
           { text: 'Introducción', link: '/' },
-          { text: 'Programas ABAP', link: '/codigos' },
+          { text: 'Códigos ABAP', link: '/codigos' },
         ]
       }
     ]
