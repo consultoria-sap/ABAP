@@ -20,7 +20,8 @@ export default defineConfig({
       {
         text: 'Contenido',
         items: [
-          { text: 'Introducción', link: '/' },
+          { text: 'Inicio', link: '/' },
+          { text: 'Tips Técnicos', link: '/tips/' },
           { text: 'Códigos ABAP', link: '/codigos/' }, // Agregamos la barra final
         ]
       }
