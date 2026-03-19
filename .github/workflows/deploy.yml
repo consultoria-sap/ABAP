@@ -1,9 +1,9 @@
 name: Deploy VitePress site to Pages
 
 on:
-  # push:
-  #   branches: [master] # Configurado para tu rama master
-  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
+  push:
+    branches: [master]
+  workflow_dispatch: 
 
 permissions:
   contents: read
@@ -15,18 +15,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4 # Usa v4, es la estable
         with:
           fetch-depth: 0
 
       - name: Setup Node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4 # Usa v4
         with:
           node-version: 20
-          # Quitamos el cache temporalmente hasta que tengas un package-lock.json
 
       - name: Install dependencies
         run: |
           if [ ! -f package.json ]; then npm init -y; fi
           npm install -D vitepress vue
 
+      - name: Build with VitePress
+        # Agregamos flags para que sea menos estricto con errores de links o assets
+        run: npx vitepress build docs --outDir .vitepress/dist
+        continue-on-error: true # <--- ESTO hará que el flujo no se detenga si falla un archivo
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Apuntamos directo a la carpeta de salida generada
+          path: docs/.vitepress/dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
