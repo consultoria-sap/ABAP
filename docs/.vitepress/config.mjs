@@ -26,7 +26,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com' }
+      { icon: 'github', link: 'https://github.com/consultoria-sap/abap' }
     ],
     footer: {
       message: 'Publicado originalmente en 2017. Migrado a VitePress.',
