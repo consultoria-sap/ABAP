@@ -30,14 +30,13 @@ jobs:
           npm install -D vitepress vue
 
       - name: Build with VitePress
-        # Agregamos flags para que sea menos estricto con errores de links o assets
-        run: npx vitepress build docs --outDir .vitepress/dist
-        continue-on-error: true # <--- ESTO hará que el flujo no se detenga si falla un archivo
+        # Entramos a la carpeta y buildeamos el punto actual (.)
+        run: npx vitepress build docs
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Apuntamos directo a la carpeta de salida generada
+          # Esta ruta debe ser exacta desde la raíz del repo
           path: docs/.vitepress/dist
 
   deploy:
