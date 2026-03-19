@@ -1,6 +1,6 @@
 ---
 title: "Src"
-description: "<<< @/codigos/src/zcl_byte_padding_utility.clas.abap..."
+description: "Colección de varios archivos ABAP para revisar"
 fuente: "Archivo Histórico SAP"
 ---
 
