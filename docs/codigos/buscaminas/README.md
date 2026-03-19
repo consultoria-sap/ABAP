@@ -1,6 +1,6 @@
 ---
 title: "Buscaminas"
-description: "En este [debate sobre juegos ABAP](https://foros.consultoria-sap.com/t/creacion-de-juegos-en-abap/30279), _@iespino_ pasó un enlace de un foro: `h_tp:..."
+description: "Un buscaminas en código ABAP
 fuente: "Archivo Histórico SAP"
 ---
 
