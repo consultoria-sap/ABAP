@@ -1,8 +1,8 @@
 name: Deploy VitePress site to Pages
 
 on:
-  push:
-    branches: [master] # Configurado para tu rama master
+  # push:
+  #   branches: [master] # Configurado para tu rama master
   workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
 
 permissions:
