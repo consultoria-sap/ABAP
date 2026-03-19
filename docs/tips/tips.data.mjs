@@ -6,11 +6,12 @@ export default createContentLoader('tips/*.md', {
   transform(raw) {
     return raw
       .filter(({ url }) => url !== '/tips/') // Excluimos el propio índice
-      .map(({ url, frontmatter }) => ({
-        title: frontmatter.title || url.split('/').pop().replace('.html', ''),
-        url,
-        description: frontmatter.description
-      }))
+     .map(({ url, frontmatter }) => ({
+      title: frontmatter.title || url.split('/').pop().replace('.html', ''),
+      // Agregamos el prefijo /abap manualmente aquí
+      url: `/abap${url}`, 
+      description: frontmatter.description
+    }))
       .sort((a, b) => a.title.localeCompare(b.title)) // Orden alfabético
   }
 })
