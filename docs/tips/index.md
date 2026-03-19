@@ -8,6 +8,7 @@ description: "Recopilación de trucos, debugging y procesos ABAP"
 Aquí encontrarás notas rápidas sobre debugging, liberación de documentos y herramientas útiles.
 
 <script setup>
+import { withBase } from 'vitepress'
 import { data as posts } from './tips.data.mjs'
 </script>
 
