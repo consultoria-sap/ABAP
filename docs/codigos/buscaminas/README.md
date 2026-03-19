@@ -1,6 +1,6 @@
 ---
 title: "Buscaminas"
-description: "Un buscaminas en código ABAP
+description: "Un buscaminas en código ABAP"
 fuente: "Archivo Histórico SAP"
 ---
 
