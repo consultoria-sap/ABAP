@@ -1,8 +1,6 @@
 ---
-title: Status e Información sobre Liberación de OC
-url: /liberacion-pedidos-compra/
-category: sap-mm
-published: true
+title: "Status e Información sobre Liberación de OC"
+description: "un reporte que nos muestra iniformación del las liberaciones en nuestros pedidos de Compra"
 created: 2018-01-17T11:11:54-03:00
 ---
 
