@@ -1,8 +1,6 @@
 ---
-title: Introducción a las herramientas de desarrollo ABAP
-url: /intro-herramientas-abap/
-category: sap-abap
-published: true
+title: "Introducción a las herramientas de desarrollo ABAP"
+description: "Intro a las herramientas de desarrollo ABAP en español"
 created: 2019-11-07T10:30:54-03:00
 ---
 
