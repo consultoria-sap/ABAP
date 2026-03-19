@@ -22,7 +22,7 @@ export default defineConfig({
           { text: 'Códigos ABAP', link: '/codigos' },
         ]
       }
-    ]
+    ],
 
   socialLinks: [
       { icon: 'github', link: 'https://github.com' }
